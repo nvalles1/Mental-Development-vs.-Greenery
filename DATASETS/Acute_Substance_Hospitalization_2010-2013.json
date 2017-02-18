@@ -1,0 +1,2765 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "evxy-y8bi",
+      "name" : "Acute Substance Hospitalization 2010-2013",
+      "attribution" : "County of San Diego",
+      "averageRating" : 0,
+      "category" : "Behavioral Health",
+      "createdAt" : 1441306753,
+      "description" : "Acute Substance‐related Disorder† Hospitalizations: *Rates per 100,000 population. County age‐adjusted rates per 100,000 2000 US standard population.\n\n**Harbison Crest/El Cajon is an aggregation of the Harbison Crest and El Cajon SRAs. Due to geographic limitations, the Harbison Crest SRA is not shown alone. See the Data Guide for more information.\n\n†Acute substance‐related disorder hospitalization refers to (principal diagnosis) ICD‐9 codes 292, 305.2‐305.9.\n\n§Rates not calculated for fewer than 5 events. Rates not calculated in cases where zip code is unknown.\n\nSource: Patient Discharge Database (CA OSHPD), County of San Diego, Health & Human Services Agency, Public Health Services, Epidemiology & Immunization Services Branch; SANDAG, Current Population Estimates, 10/2013.\n\nPrepared by: County of San Diego, Health & Human Services Agency, Public Health Services, Community Health Statistics Unit, 2015.",
+      "displayType" : "table",
+      "downloadCount" : 12,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1445988601,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 14328744,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1445987287,
+      "publicationGroup" : 4208767,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1445987174,
+      "rowsUpdatedBy" : "sh3q-qktw",
+      "tableId" : 5140696,
+      "totalTimesRated" : 0,
+      "viewCount" : 34,
+      "viewLastModified" : 1445987287,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 227693869,
+        "name" : "CONDITION",
+        "dataTypeName" : "text",
+        "fieldName" : "condition",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31060876,
+        "width" : 156,
+        "cachedContents" : {
+          "non_null" : 196,
+          "largest" : "Acute Substance",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Acute Substance",
+            "count" : 20
+          } ],
+          "smallest" : "Acute Substance"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693874,
+        "name" : "OUTCOME",
+        "dataTypeName" : "text",
+        "fieldName" : "outcome",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31060880,
+        "width" : 152,
+        "cachedContents" : {
+          "non_null" : 196,
+          "largest" : "Hospitalization",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Hospitalization",
+            "count" : 20
+          } ],
+          "smallest" : "Hospitalization"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693875,
+        "name" : "YEAR",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060881,
+        "width" : 123,
+        "cachedContents" : {
+          "non_null" : 196,
+          "average" : "2011.5",
+          "largest" : "2013",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2010",
+            "count" : 20
+          }, {
+            "item" : "2011",
+            "count" : 19
+          }, {
+            "item" : "2012",
+            "count" : 18
+          }, {
+            "item" : "2013",
+            "count" : 17
+          } ],
+          "smallest" : "2010",
+          "sum" : "394254"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 227693876,
+        "name" : "Geography",
+        "dataTypeName" : "text",
+        "fieldName" : "geography",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31060882,
+        "width" : 151,
+        "cachedContents" : {
+          "non_null" : 196,
+          "largest" : "Vista",
+          "null" : 0,
+          "top" : [ {
+            "item" : "North Central Region",
+            "count" : 20
+          }, {
+            "item" : "Coastal",
+            "count" : 19
+          }, {
+            "item" : "Del Mar-Mira Mesa",
+            "count" : 18
+          }, {
+            "item" : "Elliott-Navajo",
+            "count" : 17
+          }, {
+            "item" : "Kearny Mesa",
+            "count" : 16
+          }, {
+            "item" : "Miramar",
+            "count" : 15
+          }, {
+            "item" : "Peninsula",
+            "count" : 14
+          }, {
+            "item" : "University",
+            "count" : 13
+          }, {
+            "item" : "North Coastal Region",
+            "count" : 12
+          }, {
+            "item" : "Carlsbad",
+            "count" : 11
+          }, {
+            "item" : "Oceanside",
+            "count" : 10
+          }, {
+            "item" : "Pendleton",
+            "count" : 9
+          }, {
+            "item" : "San Dieguito",
+            "count" : 8
+          }, {
+            "item" : "Vista",
+            "count" : 7
+          }, {
+            "item" : "North Inland Region",
+            "count" : 6
+          }, {
+            "item" : "Anza-Borrego Springs",
+            "count" : 5
+          }, {
+            "item" : "Escondido",
+            "count" : 4
+          }, {
+            "item" : "Fallbrook",
+            "count" : 3
+          }, {
+            "item" : "North San Diego",
+            "count" : 2
+          }, {
+            "item" : "Palomar-Julian",
+            "count" : 1
+          } ],
+          "smallest" : "Alpine"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693877,
+        "name" : "SRANum",
+        "dataTypeName" : "number",
+        "fieldName" : "sranum",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060883,
+        "width" : 133,
+        "cachedContents" : {
+          "non_null" : 196,
+          "average" : "39.93877551020408",
+          "largest" : "99",
+          "null" : 0,
+          "top" : [ {
+            "item" : "99",
+            "count" : 20
+          }, {
+            "item" : "39",
+            "count" : 19
+          }, {
+            "item" : "51",
+            "count" : 18
+          }, {
+            "item" : "53",
+            "count" : 17
+          }, {
+            "item" : "21",
+            "count" : 16
+          }, {
+            "item" : "3",
+            "count" : 15
+          }, {
+            "item" : "4",
+            "count" : 14
+          }, {
+            "item" : "22",
+            "count" : 13
+          }, {
+            "item" : "20",
+            "count" : 12
+          } ],
+          "smallest" : "0",
+          "sum" : "7828"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693878,
+        "name" : "RegionNum",
+        "dataTypeName" : "number",
+        "fieldName" : "regionnum",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060884,
+        "width" : 152,
+        "cachedContents" : {
+          "non_null" : 196,
+          "average" : "17.46938775510204",
+          "largest" : "99",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "99",
+            "count" : 19
+          }, {
+            "item" : "3",
+            "count" : 18
+          }, {
+            "item" : "5",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "1",
+            "count" : 15
+          }, {
+            "item" : "6",
+            "count" : 14
+          }, {
+            "item" : "4",
+            "count" : 13
+          } ],
+          "smallest" : "0",
+          "sum" : "3424"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693879,
+        "name" : "RegionName",
+        "dataTypeName" : "text",
+        "fieldName" : "regionname",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31060885,
+        "width" : 165,
+        "cachedContents" : {
+          "non_null" : 196,
+          "largest" : "UNKNOWN",
+          "null" : 0,
+          "top" : [ {
+            "item" : "COUNTY",
+            "count" : 20
+          }, {
+            "item" : "REGION CENTRAL",
+            "count" : 19
+          }, {
+            "item" : "CENTRAL",
+            "count" : 18
+          }, {
+            "item" : "REGION EAST",
+            "count" : 17
+          }, {
+            "item" : "EAST",
+            "count" : 16
+          }, {
+            "item" : "REGION N CENTRAL",
+            "count" : 15
+          }, {
+            "item" : "N CENTRAL",
+            "count" : 14
+          }, {
+            "item" : "REGION N COASTAL",
+            "count" : 13
+          }, {
+            "item" : "N COASTAL",
+            "count" : 12
+          }, {
+            "item" : "REGION N INLAND",
+            "count" : 11
+          }, {
+            "item" : "N INLAND",
+            "count" : 10
+          }, {
+            "item" : "REGION SOUTH",
+            "count" : 9
+          }, {
+            "item" : "SOUTH",
+            "count" : 8
+          }, {
+            "item" : "UNKNOWN",
+            "count" : 7
+          } ],
+          "smallest" : "CENTRAL"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693870,
+        "name" : "UrbanicitySort",
+        "dataTypeName" : "number",
+        "fieldName" : "urbanicitysort",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060877,
+        "width" : 165,
+        "cachedContents" : {
+          "non_null" : 196,
+          "average" : "24.38775510204082",
+          "largest" : "99",
+          "null" : 0,
+          "top" : [ {
+            "item" : "99",
+            "count" : 20
+          }, {
+            "item" : "5",
+            "count" : 19
+          }, {
+            "item" : "1",
+            "count" : 18
+          }, {
+            "item" : "4",
+            "count" : 17
+          }, {
+            "item" : "2",
+            "count" : 16
+          }, {
+            "item" : "3",
+            "count" : 15
+          } ],
+          "smallest" : "1",
+          "sum" : "4780"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693880,
+        "name" : "UrbanicityCat",
+        "dataTypeName" : "text",
+        "fieldName" : "urbanicitycat",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31060886,
+        "width" : 166,
+        "cachedContents" : {
+          "non_null" : 152,
+          "largest" : "Very Urban Area",
+          "null" : 44,
+          "top" : [ {
+            "item" : "Very Urban Area",
+            "count" : 20
+          }, {
+            "item" : "Rural Area",
+            "count" : 19
+          }, {
+            "item" : "Urban Area",
+            "count" : 18
+          }, {
+            "item" : "Exurban Area",
+            "count" : 17
+          }, {
+            "item" : "Suburban Area",
+            "count" : 16
+          } ],
+          "smallest" : "Exurban Area"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693881,
+        "name" : "SESSort",
+        "dataTypeName" : "number",
+        "fieldName" : "sessort",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060887,
+        "width" : 135,
+        "cachedContents" : {
+          "non_null" : 196,
+          "average" : "25",
+          "largest" : "99",
+          "null" : 0,
+          "top" : [ {
+            "item" : "99",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "1",
+            "count" : 18
+          }, {
+            "item" : "5",
+            "count" : 17
+          }, {
+            "item" : "6",
+            "count" : 16
+          }, {
+            "item" : "3",
+            "count" : 15
+          }, {
+            "item" : "4",
+            "count" : 14
+          } ],
+          "smallest" : "1",
+          "sum" : "4900"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693882,
+        "name" : "Socioeconomic_Category",
+        "dataTypeName" : "text",
+        "fieldName" : "socioeconomic_category",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31060888,
+        "width" : 240,
+        "cachedContents" : {
+          "non_null" : 152,
+          "largest" : "Moderately Low Income",
+          "null" : 44,
+          "top" : [ {
+            "item" : "Low Income",
+            "count" : 20
+          }, {
+            "item" : "Lowest Income",
+            "count" : 19
+          }, {
+            "item" : "High Income",
+            "count" : 18
+          }, {
+            "item" : "Highest Income",
+            "count" : 17
+          }, {
+            "item" : "Moderately Low Income",
+            "count" : 16
+          }, {
+            "item" : "Moderately High Income",
+            "count" : 15
+          } ],
+          "smallest" : "Highest Income"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693871,
+        "name" : "SDNUM",
+        "dataTypeName" : "number",
+        "fieldName" : "sdnum",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060878,
+        "width" : 129,
+        "cachedContents" : {
+          "non_null" : 196,
+          "average" : "18.73469387755102",
+          "largest" : "99",
+          "null" : 0,
+          "top" : [ {
+            "item" : "99",
+            "count" : 20
+          }, {
+            "item" : "4",
+            "count" : 19
+          }, {
+            "item" : "2",
+            "count" : 18
+          }, {
+            "item" : "3",
+            "count" : 17
+          }, {
+            "item" : "5",
+            "count" : 16
+          }, {
+            "item" : "1",
+            "count" : 15
+          } ],
+          "smallest" : "1",
+          "sum" : "3672"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693872,
+        "name" : "Supervisor_District",
+        "dataTypeName" : "text",
+        "fieldName" : "supervisor_district",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 31060879,
+        "width" : 204,
+        "cachedContents" : {
+          "non_null" : 192,
+          "largest" : "Supervisorial District 5",
+          "null" : 4,
+          "top" : [ {
+            "item" : "County Total",
+            "count" : 20
+          }, {
+            "item" : "Central Region",
+            "count" : 19
+          }, {
+            "item" : "Supervisorial District 4",
+            "count" : 18
+          }, {
+            "item" : "East Region",
+            "count" : 17
+          }, {
+            "item" : "Supervisorial District 2",
+            "count" : 16
+          }, {
+            "item" : "North Central Region",
+            "count" : 15
+          }, {
+            "item" : "Supervisorial District 3",
+            "count" : 14
+          }, {
+            "item" : "North Coastal Region",
+            "count" : 13
+          }, {
+            "item" : "Supervisorial District 5",
+            "count" : 12
+          }, {
+            "item" : "North Inland Region",
+            "count" : 11
+          }, {
+            "item" : "South Region",
+            "count" : 10
+          }, {
+            "item" : "Supervisorial District 1",
+            "count" : 9
+          } ],
+          "smallest" : "Central Region"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693884,
+        "name" : "Total_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "total_cases",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060889,
+        "width" : 169,
+        "cachedContents" : {
+          "non_null" : 161,
+          "average" : "79.60869565217391",
+          "largest" : "1206",
+          "null" : 35,
+          "top" : [ {
+            "item" : "31",
+            "count" : 20
+          }, {
+            "item" : "23",
+            "count" : 19
+          }, {
+            "item" : "25",
+            "count" : 18
+          }, {
+            "item" : "30",
+            "count" : 17
+          }, {
+            "item" : "8",
+            "count" : 16
+          }, {
+            "item" : "9",
+            "count" : 15
+          }, {
+            "item" : "18",
+            "count" : 14
+          }, {
+            "item" : "11",
+            "count" : 13
+          }, {
+            "item" : "26",
+            "count" : 12
+          }, {
+            "item" : "36",
+            "count" : 11
+          }, {
+            "item" : "19",
+            "count" : 10
+          }, {
+            "item" : "171",
+            "count" : 9
+          }, {
+            "item" : "48",
+            "count" : 8
+          }, {
+            "item" : "57",
+            "count" : 7
+          }, {
+            "item" : "253",
+            "count" : 6
+          }, {
+            "item" : "67",
+            "count" : 5
+          }, {
+            "item" : "16",
+            "count" : 4
+          }, {
+            "item" : "50",
+            "count" : 3
+          }, {
+            "item" : "39",
+            "count" : 2
+          }, {
+            "item" : "27",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "12817"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693885,
+        "name" : "Total_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "total_rate",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060890,
+        "width" : 163,
+        "cachedContents" : {
+          "non_null" : 158,
+          "average" : "34.72321150999781",
+          "largest" : "91.7448727995566",
+          "null" : 38,
+          "top" : [ {
+            "item" : "50.8785021368971",
+            "count" : 20
+          }, {
+            "item" : "51.8302559118886",
+            "count" : 19
+          }, {
+            "item" : "45.1817972843362",
+            "count" : 18
+          }, {
+            "item" : "55.2568380337067",
+            "count" : 17
+          }, {
+            "item" : "48.8838194557601",
+            "count" : 16
+          }, {
+            "item" : "86.1497680583168",
+            "count" : 15
+          }, {
+            "item" : "31.4564328405159",
+            "count" : 14
+          }, {
+            "item" : "33.2071461778575",
+            "count" : 13
+          }, {
+            "item" : "91.7448727995566",
+            "count" : 12
+          }, {
+            "item" : "15.7627344706753",
+            "count" : 11
+          }, {
+            "item" : "35.4041243379914",
+            "count" : 10
+          }, {
+            "item" : "40.7948414265035",
+            "count" : 9
+          }, {
+            "item" : "22.3630264629146",
+            "count" : 8
+          }, {
+            "item" : "25.4045396807864",
+            "count" : 7
+          }, {
+            "item" : "56.5813177593798",
+            "count" : 6
+          }, {
+            "item" : "36.6160410099659",
+            "count" : 5
+          }, {
+            "item" : "27.3810724733755",
+            "count" : 4
+          }, {
+            "item" : "33.3460087167637",
+            "count" : 3
+          }, {
+            "item" : "40.5978026439319",
+            "count" : 2
+          }, {
+            "item" : "35.2875626818548",
+            "count" : 1
+          } ],
+          "smallest" : "8.54832367372758",
+          "sum" : "5486.26741857965418"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693886,
+        "name" : "Age_Adjusted_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "age_adjusted_rate",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060891,
+        "width" : 205,
+        "cachedContents" : {
+          "non_null" : 158,
+          "average" : "34.43995044025611",
+          "largest" : "93.8011400589899",
+          "null" : 38,
+          "top" : [ {
+            "item" : "49.0248979128088",
+            "count" : 20
+          }, {
+            "item" : "54.2349425772808",
+            "count" : 19
+          }, {
+            "item" : "42.9687395886748",
+            "count" : 18
+          }, {
+            "item" : "52.3712150126484",
+            "count" : 17
+          }, {
+            "item" : "54.1081528977205",
+            "count" : 16
+          }, {
+            "item" : "84.4057099997158",
+            "count" : 15
+          }, {
+            "item" : "29.2959269080823",
+            "count" : 14
+          }, {
+            "item" : "32.354003422166",
+            "count" : 13
+          }, {
+            "item" : "93.8011400589899",
+            "count" : 12
+          }, {
+            "item" : "15.367886503822",
+            "count" : 11
+          }, {
+            "item" : "32.0898917685839",
+            "count" : 10
+          }, {
+            "item" : "37.8310008493786",
+            "count" : 9
+          }, {
+            "item" : "22.9505267154783",
+            "count" : 8
+          }, {
+            "item" : "25.4905610092711",
+            "count" : 7
+          }, {
+            "item" : "55.2837148694658",
+            "count" : 6
+          }, {
+            "item" : "32.7524278587274",
+            "count" : 5
+          }, {
+            "item" : "24.1925818247429",
+            "count" : 4
+          }, {
+            "item" : "32.2656030359672",
+            "count" : 3
+          }, {
+            "item" : "41.8367862413099",
+            "count" : 2
+          }, {
+            "item" : "35.8347124609443",
+            "count" : 1
+          } ],
+          "smallest" : "8.82541324913659",
+          "sum" : "5441.51216956046579"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693887,
+        "name" : "Male_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "male_cases",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060892,
+        "width" : 156,
+        "cachedContents" : {
+          "non_null" : 151,
+          "average" : "49.91390728476821",
+          "largest" : "771",
+          "null" : 45,
+          "top" : [ {
+            "item" : "13",
+            "count" : 20
+          }, {
+            "item" : "17",
+            "count" : 19
+          }, {
+            "item" : "7",
+            "count" : 18
+          }, {
+            "item" : "12",
+            "count" : 17
+          }, {
+            "item" : "8",
+            "count" : 16
+          }, {
+            "item" : "15",
+            "count" : 15
+          }, {
+            "item" : "18",
+            "count" : 14
+          }, {
+            "item" : "5",
+            "count" : 13
+          }, {
+            "item" : "11",
+            "count" : 12
+          }, {
+            "item" : "23",
+            "count" : 11
+          }, {
+            "item" : "22",
+            "count" : 10
+          }, {
+            "item" : "139",
+            "count" : 9
+          }, {
+            "item" : "6",
+            "count" : 8
+          }, {
+            "item" : "26",
+            "count" : 7
+          }, {
+            "item" : "10",
+            "count" : 6
+          }, {
+            "item" : "30",
+            "count" : 5
+          }, {
+            "item" : "21",
+            "count" : 4
+          }, {
+            "item" : "38",
+            "count" : 3
+          }, {
+            "item" : "50",
+            "count" : 2
+          }, {
+            "item" : "36",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "7537"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693888,
+        "name" : "Male_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "male_rate",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060893,
+        "width" : 151,
+        "cachedContents" : {
+          "non_null" : 148,
+          "average" : "41.90943360686143",
+          "largest" : "138.105196701259",
+          "null" : 48,
+          "top" : [ {
+            "item" : "12.4626121635095",
+            "count" : 20
+          }, {
+            "item" : "45.7822684953962",
+            "count" : 19
+          }, {
+            "item" : "51.0751315184637",
+            "count" : 18
+          }, {
+            "item" : "29.8500037312505",
+            "count" : 17
+          }, {
+            "item" : "43.164160116316",
+            "count" : 16
+          }, {
+            "item" : "71.8907260963336",
+            "count" : 15
+          }, {
+            "item" : "41.137752703338",
+            "count" : 14
+          }, {
+            "item" : "31.9990691179893",
+            "count" : 13
+          }, {
+            "item" : "41.9655266673597",
+            "count" : 12
+          }, {
+            "item" : "57.4242608801573",
+            "count" : 11
+          }, {
+            "item" : "46.2130295763389",
+            "count" : 10
+          }, {
+            "item" : "37.9955249715034",
+            "count" : 9
+          }, {
+            "item" : "40.595399188092",
+            "count" : 8
+          }, {
+            "item" : "56.9470149694257",
+            "count" : 7
+          }, {
+            "item" : "52.199036138728",
+            "count" : 6
+          }, {
+            "item" : "41.3890153553247",
+            "count" : 5
+          }, {
+            "item" : "62.9513053138308",
+            "count" : 4
+          }, {
+            "item" : "51.3023808968589",
+            "count" : 3
+          }, {
+            "item" : "94.7022450002785",
+            "count" : 2
+          }, {
+            "item" : "51.0963499433497",
+            "count" : 1
+          } ],
+          "smallest" : "10.6173214014864",
+          "sum" : "6202.5961738154921"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693889,
+        "name" : "Female_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "female_cases",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060894,
+        "width" : 173,
+        "cachedContents" : {
+          "non_null" : 144,
+          "average" : "36.11111111111111",
+          "largest" : "496",
+          "null" : 52,
+          "top" : [ {
+            "item" : "26",
+            "count" : 20
+          }, {
+            "item" : "19",
+            "count" : 19
+          }, {
+            "item" : "18",
+            "count" : 18
+          }, {
+            "item" : "25",
+            "count" : 17
+          }, {
+            "item" : "12",
+            "count" : 16
+          }, {
+            "item" : "9",
+            "count" : 15
+          }, {
+            "item" : "8",
+            "count" : 14
+          }, {
+            "item" : "6",
+            "count" : 13
+          }, {
+            "item" : "16",
+            "count" : 12
+          }, {
+            "item" : "5",
+            "count" : 11
+          }, {
+            "item" : "10",
+            "count" : 10
+          }, {
+            "item" : "13",
+            "count" : 9
+          }, {
+            "item" : "20",
+            "count" : 8
+          }, {
+            "item" : "11",
+            "count" : 7
+          }, {
+            "item" : "14",
+            "count" : 6
+          }, {
+            "item" : "43",
+            "count" : 5
+          }, {
+            "item" : "22",
+            "count" : 4
+          }, {
+            "item" : "17",
+            "count" : 3
+          }, {
+            "item" : "78",
+            "count" : 2
+          }, {
+            "item" : "34",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "5200"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693890,
+        "name" : "Female_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "female_rate",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060895,
+        "width" : 166,
+        "cachedContents" : {
+          "non_null" : 141,
+          "average" : "30.13893314945352",
+          "largest" : "80.2782981000803",
+          "null" : 55,
+          "top" : [ {
+            "item" : "31.2695434646654",
+            "count" : 20
+          }, {
+            "item" : "22.8473511352278",
+            "count" : 19
+          }, {
+            "item" : "24.4993440498206",
+            "count" : 18
+          }, {
+            "item" : "24.6848566632656",
+            "count" : 17
+          }, {
+            "item" : "24.5501190680775",
+            "count" : 16
+          }, {
+            "item" : "36.855791478122",
+            "count" : 15
+          }, {
+            "item" : "17.6391039335202",
+            "count" : 14
+          }, {
+            "item" : "30.0146363507598",
+            "count" : 13
+          }, {
+            "item" : "28.7143164796248",
+            "count" : 12
+          }, {
+            "item" : "24.7259540097255",
+            "count" : 11
+          }, {
+            "item" : "27.7777777777778",
+            "count" : 10
+          }, {
+            "item" : "37.9049700104796",
+            "count" : 9
+          }, {
+            "item" : "55.9284116331096",
+            "count" : 8
+          }, {
+            "item" : "25.5918106206014",
+            "count" : 7
+          }, {
+            "item" : "16.65701947622",
+            "count" : 6
+          }, {
+            "item" : "28.1755502519226",
+            "count" : 5
+          }, {
+            "item" : "16.1603102779573",
+            "count" : 4
+          }, {
+            "item" : "9.58090388984698",
+            "count" : 3
+          } ],
+          "smallest" : "7.13144682793245",
+          "sum" : "4249.58957407294563"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693891,
+        "name" : "White_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "white_cases",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060897,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 153,
+          "average" : "58.30718954248366",
+          "largest" : "874",
+          "null" : 43,
+          "top" : [ {
+            "item" : "8",
+            "count" : 20
+          }, {
+            "item" : "16",
+            "count" : 19
+          }, {
+            "item" : "7",
+            "count" : 18
+          }, {
+            "item" : "11",
+            "count" : 17
+          }, {
+            "item" : "19",
+            "count" : 16
+          }, {
+            "item" : "10",
+            "count" : 15
+          }, {
+            "item" : "37",
+            "count" : 14
+          }, {
+            "item" : "30",
+            "count" : 13
+          }, {
+            "item" : "21",
+            "count" : 12
+          }, {
+            "item" : "6",
+            "count" : 11
+          }, {
+            "item" : "12",
+            "count" : 10
+          }, {
+            "item" : "26",
+            "count" : 9
+          }, {
+            "item" : "28",
+            "count" : 8
+          }, {
+            "item" : "9",
+            "count" : 7
+          }, {
+            "item" : "54",
+            "count" : 6
+          }, {
+            "item" : "25",
+            "count" : 5
+          }, {
+            "item" : "114",
+            "count" : 4
+          } ],
+          "smallest" : "5",
+          "sum" : "8921"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693892,
+        "name" : "White_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "white_rate",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060900,
+        "width" : 149,
+        "cachedContents" : {
+          "non_null" : 150,
+          "average" : "50.89110901367640",
+          "largest" : "131.073869487876",
+          "null" : 46,
+          "top" : [ {
+            "item" : "38.9977576289363",
+            "count" : 20
+          }, {
+            "item" : "104.695597550123",
+            "count" : 19
+          }, {
+            "item" : "21.1662609799979",
+            "count" : 18
+          }, {
+            "item" : "47.7539191147411",
+            "count" : 17
+          }, {
+            "item" : "46.3990985318",
+            "count" : 16
+          }, {
+            "item" : "39.565830948393",
+            "count" : 15
+          }, {
+            "item" : "31.7667318720637",
+            "count" : 14
+          }, {
+            "item" : "71.6512019489127",
+            "count" : 13
+          }, {
+            "item" : "38.3909909141322",
+            "count" : 12
+          }, {
+            "item" : "54.6872751345595",
+            "count" : 11
+          }, {
+            "item" : "47.2385682664795",
+            "count" : 10
+          }, {
+            "item" : "48.0093676814988",
+            "count" : 9
+          }, {
+            "item" : "63.0214684002137",
+            "count" : 8
+          }, {
+            "item" : "44.4570181465465",
+            "count" : 7
+          }, {
+            "item" : "46.6613783771173",
+            "count" : 6
+          }, {
+            "item" : "63.8315616600055",
+            "count" : 5
+          }, {
+            "item" : "70.9035133414366",
+            "count" : 4
+          }, {
+            "item" : "44.8849822330279",
+            "count" : 3
+          }, {
+            "item" : "59.3184620908197",
+            "count" : 2
+          }, {
+            "item" : "55.4756167328329",
+            "count" : 1
+          } ],
+          "smallest" : "14.4998985007105",
+          "sum" : "7633.6663520514593"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693893,
+        "name" : "Black_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "black_cases",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060902,
+        "width" : 154,
+        "cachedContents" : {
+          "non_null" : 40,
+          "average" : "17.675",
+          "largest" : "70",
+          "null" : 156,
+          "top" : [ {
+            "item" : "55",
+            "count" : 20
+          }, {
+            "item" : "29",
+            "count" : 19
+          }, {
+            "item" : "14",
+            "count" : 18
+          }, {
+            "item" : "11",
+            "count" : 17
+          }, {
+            "item" : "9",
+            "count" : 16
+          }, {
+            "item" : "5",
+            "count" : 15
+          }, {
+            "item" : "8",
+            "count" : 14
+          }, {
+            "item" : "17",
+            "count" : 13
+          }, {
+            "item" : "60",
+            "count" : 12
+          }, {
+            "item" : "26",
+            "count" : 11
+          }, {
+            "item" : "12",
+            "count" : 10
+          }, {
+            "item" : "10",
+            "count" : 9
+          }, {
+            "item" : "7",
+            "count" : 8
+          }, {
+            "item" : "68",
+            "count" : 7
+          }, {
+            "item" : "33",
+            "count" : 6
+          }, {
+            "item" : "15",
+            "count" : 5
+          }, {
+            "item" : "31",
+            "count" : 4
+          }, {
+            "item" : "70",
+            "count" : 3
+          }, {
+            "item" : "39",
+            "count" : 2
+          }, {
+            "item" : "23",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "707"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693894,
+        "name" : "Black_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "black_rate",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060904,
+        "width" : 153,
+        "cachedContents" : {
+          "non_null" : 37,
+          "average" : "63.49432959563527",
+          "largest" : "222.072028579705",
+          "null" : 159,
+          "top" : [ {
+            "item" : "37.5170532060027",
+            "count" : 20
+          }, {
+            "item" : "51.1662373407671",
+            "count" : 19
+          }, {
+            "item" : "121.929977355861",
+            "count" : 18
+          }, {
+            "item" : "42.5071489295927",
+            "count" : 17
+          }, {
+            "item" : "33.8625931221311",
+            "count" : 16
+          }, {
+            "item" : "26.6425107902169",
+            "count" : 15
+          }, {
+            "item" : "40.6008932196508",
+            "count" : 14
+          }, {
+            "item" : "41.9859347118715",
+            "count" : 13
+          }, {
+            "item" : "47.3950927850086",
+            "count" : 12
+          }, {
+            "item" : "107.971927298902",
+            "count" : 11
+          }, {
+            "item" : "26.5999893600043",
+            "count" : 10
+          }, {
+            "item" : "36.0764821421413",
+            "count" : 9
+          }, {
+            "item" : "38.392137290283",
+            "count" : 8
+          }, {
+            "item" : "64.1848523748395",
+            "count" : 7
+          }, {
+            "item" : "106.173214014864",
+            "count" : 6
+          }, {
+            "item" : "37.236023192723",
+            "count" : 5
+          }, {
+            "item" : "48.786437370411",
+            "count" : 4
+          }, {
+            "item" : "62.2089844854563",
+            "count" : 3
+          }, {
+            "item" : "83.7832805808974",
+            "count" : 2
+          }, {
+            "item" : "48.9662676822633",
+            "count" : 1
+          } ],
+          "smallest" : "26.5999893600043",
+          "sum" : "2349.2901950385050"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693895,
+        "name" : "Hispanic_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "hispanic_cases",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060906,
+        "width" : 178,
+        "cachedContents" : {
+          "non_null" : 78,
+          "average" : "21.80769230769231",
+          "largest" : "182",
+          "null" : 118,
+          "top" : [ {
+            "item" : "135",
+            "count" : 20
+          }, {
+            "item" : "32",
+            "count" : 19
+          }, {
+            "item" : "11",
+            "count" : 18
+          }, {
+            "item" : "10",
+            "count" : 17
+          }, {
+            "item" : "28",
+            "count" : 16
+          }, {
+            "item" : "6",
+            "count" : 15
+          }, {
+            "item" : "5",
+            "count" : 14
+          }, {
+            "item" : "7",
+            "count" : 13
+          }, {
+            "item" : "14",
+            "count" : 12
+          }, {
+            "item" : "15",
+            "count" : 11
+          }, {
+            "item" : "19",
+            "count" : 10
+          }, {
+            "item" : "8",
+            "count" : 9
+          }, {
+            "item" : "27",
+            "count" : 8
+          }, {
+            "item" : "9",
+            "count" : 7
+          }, {
+            "item" : "13",
+            "count" : 6
+          }, {
+            "item" : "117",
+            "count" : 5
+          }, {
+            "item" : "26",
+            "count" : 4
+          }, {
+            "item" : "12",
+            "count" : 3
+          }, {
+            "item" : "17",
+            "count" : 2
+          }, {
+            "item" : "16",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "1701"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693896,
+        "name" : "Hispanic_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "hispanic_rate",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060908,
+        "width" : 170,
+        "cachedContents" : {
+          "non_null" : 75,
+          "average" : "19.09898745030353",
+          "largest" : "82.5277057297807",
+          "null" : 121,
+          "top" : [ {
+            "item" : "22.8176543451333",
+            "count" : 20
+          }, {
+            "item" : "20.0590308622518",
+            "count" : 19
+          }, {
+            "item" : "34.887153476639",
+            "count" : 18
+          }, {
+            "item" : "57.8302105019662",
+            "count" : 17
+          }, {
+            "item" : "19.9640646835696",
+            "count" : 16
+          }, {
+            "item" : "82.5277057297807",
+            "count" : 15
+          }, {
+            "item" : "13.9700110429611",
+            "count" : 14
+          }, {
+            "item" : "44.7193858537676",
+            "count" : 13
+          }, {
+            "item" : "20.4553357743367",
+            "count" : 12
+          }, {
+            "item" : "15.5457419061383",
+            "count" : 11
+          }, {
+            "item" : "18.0654485392794",
+            "count" : 10
+          }, {
+            "item" : "14.5437621804008",
+            "count" : 9
+          }, {
+            "item" : "18.5321165075702",
+            "count" : 8
+          }, {
+            "item" : "28.6327845382964",
+            "count" : 7
+          }, {
+            "item" : "13.7675403759598",
+            "count" : 6
+          }, {
+            "item" : "18.0856354840168",
+            "count" : 5
+          }, {
+            "item" : "14.8824476223157",
+            "count" : 4
+          }, {
+            "item" : "16.1959806203523",
+            "count" : 3
+          }, {
+            "item" : "19.6450789077336",
+            "count" : 2
+          }, {
+            "item" : "15.2150158374483",
+            "count" : 1
+          } ],
+          "smallest" : "7.18783243725022",
+          "sum" : "1432.42405877276473"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693897,
+        "name" : "Asian_Pacific_Islander_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "asian_pacific_islander_cases",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060911,
+        "width" : 254,
+        "cachedContents" : {
+          "non_null" : 11,
+          "average" : "11.36363636363636",
+          "largest" : "24",
+          "null" : 185,
+          "top" : [ {
+            "item" : "23",
+            "count" : 20
+          }, {
+            "item" : "6",
+            "count" : 19
+          }, {
+            "item" : "8",
+            "count" : 18
+          }, {
+            "item" : "13",
+            "count" : 17
+          }, {
+            "item" : "24",
+            "count" : 16
+          }, {
+            "item" : "7",
+            "count" : 15
+          }, {
+            "item" : "5",
+            "count" : 14
+          }, {
+            "item" : "22",
+            "count" : 13
+          } ],
+          "smallest" : "5",
+          "sum" : "125"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693898,
+        "name" : "Asian_Pacific_Islander_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "asian_pacific_islander_rate",
+        "position" : 28,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060912,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 11,
+          "average" : "12.41610457397405",
+          "largest" : "30.2648171500631",
+          "null" : 185,
+          "top" : [ {
+            "item" : "6.73377015007524",
+            "count" : 20
+          }, {
+            "item" : "29.0219599496953",
+            "count" : 19
+          }, {
+            "item" : "7.38586530028159",
+            "count" : 18
+          }, {
+            "item" : "30.2648171500631",
+            "count" : 17
+          }, {
+            "item" : "3.7278764868492",
+            "count" : 16
+          }, {
+            "item" : "6.74280416368157",
+            "count" : 15
+          }, {
+            "item" : "6.13464673198605",
+            "count" : 14
+          }, {
+            "item" : "8.24049047399301",
+            "count" : 13
+          }, {
+            "item" : "6.10207664763004",
+            "count" : 12
+          }, {
+            "item" : "22.7697071815656",
+            "count" : 11
+          }, {
+            "item" : "9.45313607789384",
+            "count" : 10
+          } ],
+          "smallest" : "3.7278764868492",
+          "sum" : "136.57715031371454"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693899,
+        "name" : "Other_Race_Ethnicity_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "other_race_ethnicity_cases",
+        "position" : 29,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060914,
+        "width" : 261,
+        "cachedContents" : {
+          "non_null" : 26,
+          "average" : "13.26923076923077",
+          "largest" : "53",
+          "null" : 170,
+          "top" : [ {
+            "item" : "23",
+            "count" : 20
+          }, {
+            "item" : "7",
+            "count" : 19
+          }, {
+            "item" : "38",
+            "count" : 18
+          }, {
+            "item" : "6",
+            "count" : 17
+          }, {
+            "item" : "13",
+            "count" : 16
+          }, {
+            "item" : "5",
+            "count" : 15
+          }, {
+            "item" : "8",
+            "count" : 14
+          }, {
+            "item" : "44",
+            "count" : 13
+          }, {
+            "item" : "12",
+            "count" : 12
+          }, {
+            "item" : "11",
+            "count" : 11
+          }, {
+            "item" : "10",
+            "count" : 10
+          }, {
+            "item" : "53",
+            "count" : 9
+          }, {
+            "item" : "20",
+            "count" : 8
+          } ],
+          "smallest" : "5",
+          "sum" : "345"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693900,
+        "name" : "Other_Race_Ethnicity_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "other_race_ethnicity_rate",
+        "position" : 30,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060916,
+        "width" : 251,
+        "cachedContents" : {
+          "non_null" : 24,
+          "average" : "57.04576947369678",
+          "largest" : "182.949140139041",
+          "null" : 172,
+          "top" : [ {
+            "item" : "19.8693804208853",
+            "count" : 20
+          }, {
+            "item" : "33.3460365853659",
+            "count" : 19
+          }, {
+            "item" : "26.8045184759717",
+            "count" : 18
+          }, {
+            "item" : "32.2539574757034",
+            "count" : 17
+          }, {
+            "item" : "37.4321542204754",
+            "count" : 16
+          }, {
+            "item" : "60.6569615528182",
+            "count" : 15
+          }, {
+            "item" : "101.449275362319",
+            "count" : 14
+          }, {
+            "item" : "26.6680889647448",
+            "count" : 13
+          }, {
+            "item" : "37.1074725172782",
+            "count" : 12
+          }, {
+            "item" : "36.4948368100195",
+            "count" : 11
+          }, {
+            "item" : "48.7983408564109",
+            "count" : 10
+          }, {
+            "item" : "54.5826700022743",
+            "count" : 9
+          }, {
+            "item" : "76.7695378473822",
+            "count" : 8
+          }, {
+            "item" : "85.1426138782461",
+            "count" : 7
+          }, {
+            "item" : "25.6560621609735",
+            "count" : 6
+          }, {
+            "item" : "49.8911465892598",
+            "count" : 5
+          }, {
+            "item" : "43.8458611161667",
+            "count" : 4
+          }, {
+            "item" : "60.9644577211486",
+            "count" : 3
+          }, {
+            "item" : "90.8677873693776",
+            "count" : 2
+          }, {
+            "item" : "99.4742077589882",
+            "count" : 1
+          } ],
+          "smallest" : "19.8693804208853",
+          "sum" : "1369.0984673687228"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693901,
+        "name" : "Age_Group_0_to_14_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_0_to_14_cases",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060918,
+        "width" : 245,
+        "cachedContents" : {
+          "non_null" : 3,
+          "average" : "5.666666666666667",
+          "largest" : "6",
+          "null" : 193,
+          "top" : [ {
+            "item" : "6",
+            "count" : 20
+          }, {
+            "item" : "5",
+            "count" : 19
+          } ],
+          "smallest" : "5",
+          "sum" : "17"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693902,
+        "name" : "Age_Group_0_to_14_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_0_to_14_rate",
+        "position" : 32,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060919,
+        "width" : 243,
+        "cachedContents" : {
+          "non_null" : 3,
+          "average" : "0.9433108310893593",
+          "largest" : "1.00642771836127",
+          "null" : 193,
+          "top" : [ {
+            "item" : "1.00642771836127",
+            "count" : 20
+          }, {
+            "item" : "0.996272281214456",
+            "count" : 19
+          }, {
+            "item" : "0.827232493692352",
+            "count" : 18
+          } ],
+          "smallest" : "0.827232493692352",
+          "sum" : "2.829932493268078"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693903,
+        "name" : "Age_Group_15_to_24_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_15_to_24_cases",
+        "position" : 33,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060920,
+        "width" : 270,
+        "cachedContents" : {
+          "non_null" : 125,
+          "average" : "29.024",
+          "largest" : "361",
+          "null" : 71,
+          "top" : [ {
+            "item" : "19",
+            "count" : 20
+          }, {
+            "item" : "9",
+            "count" : 19
+          }, {
+            "item" : "6",
+            "count" : 18
+          }, {
+            "item" : "17",
+            "count" : 17
+          }, {
+            "item" : "10",
+            "count" : 16
+          }, {
+            "item" : "8",
+            "count" : 15
+          }, {
+            "item" : "15",
+            "count" : 14
+          }, {
+            "item" : "5",
+            "count" : 13
+          }, {
+            "item" : "11",
+            "count" : 12
+          }, {
+            "item" : "7",
+            "count" : 11
+          }, {
+            "item" : "20",
+            "count" : 10
+          }, {
+            "item" : "25",
+            "count" : 9
+          }, {
+            "item" : "58",
+            "count" : 8
+          }, {
+            "item" : "13",
+            "count" : 7
+          }, {
+            "item" : "59",
+            "count" : 6
+          }, {
+            "item" : "14",
+            "count" : 5
+          }, {
+            "item" : "21",
+            "count" : 4
+          }, {
+            "item" : "16",
+            "count" : 3
+          }, {
+            "item" : "28",
+            "count" : 2
+          }, {
+            "item" : "55",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "3628"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693904,
+        "name" : "Age_Group_15_to_24_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_15_to_24_rate",
+        "position" : 34,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060921,
+        "width" : 253,
+        "cachedContents" : {
+          "non_null" : 122,
+          "average" : "85.11103893108747",
+          "largest" : "330.188679245283",
+          "null" : 74,
+          "top" : [ {
+            "item" : "140.30164854437",
+            "count" : 20
+          }, {
+            "item" : "37.8787878787879",
+            "count" : 19
+          }, {
+            "item" : "40.0004848543619",
+            "count" : 18
+          }, {
+            "item" : "83.1298384163766",
+            "count" : 17
+          }, {
+            "item" : "21.2098074149487",
+            "count" : 16
+          }, {
+            "item" : "46.1020699829422",
+            "count" : 15
+          }, {
+            "item" : "71.3688385067504",
+            "count" : 14
+          }, {
+            "item" : "30.8471395704536",
+            "count" : 13
+          }, {
+            "item" : "80.9935205183585",
+            "count" : 12
+          }, {
+            "item" : "21.5177162530483",
+            "count" : 11
+          }, {
+            "item" : "117.627051387432",
+            "count" : 10
+          }, {
+            "item" : "86.3075595268315",
+            "count" : 9
+          }, {
+            "item" : "96.4054537942432",
+            "count" : 8
+          }, {
+            "item" : "287.35632183908",
+            "count" : 7
+          }, {
+            "item" : "70.2576112412178",
+            "count" : 6
+          }, {
+            "item" : "104.799832320268",
+            "count" : 5
+          }, {
+            "item" : "289.778714436249",
+            "count" : 4
+          }, {
+            "item" : "71.8328042944368",
+            "count" : 3
+          }, {
+            "item" : "62.65664160401",
+            "count" : 2
+          }, {
+            "item" : "76.5834759888278",
+            "count" : 1
+          } ],
+          "smallest" : "11.0846994199007",
+          "sum" : "10383.5467495926717"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693905,
+        "name" : "Age_Group_25_to_44_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_25_to_44_cases",
+        "position" : 35,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060922,
+        "width" : 273,
+        "cachedContents" : {
+          "non_null" : 129,
+          "average" : "32.87596899224806",
+          "largest" : "406",
+          "null" : 67,
+          "top" : [ {
+            "item" : "63",
+            "count" : 20
+          }, {
+            "item" : "32",
+            "count" : 19
+          }, {
+            "item" : "17",
+            "count" : 18
+          }, {
+            "item" : "7",
+            "count" : 17
+          }, {
+            "item" : "6",
+            "count" : 16
+          }, {
+            "item" : "12",
+            "count" : 15
+          }, {
+            "item" : "50",
+            "count" : 14
+          }, {
+            "item" : "23",
+            "count" : 13
+          }, {
+            "item" : "16",
+            "count" : 12
+          }, {
+            "item" : "8",
+            "count" : 11
+          }, {
+            "item" : "5",
+            "count" : 10
+          }, {
+            "item" : "10",
+            "count" : 9
+          }, {
+            "item" : "41",
+            "count" : 8
+          }, {
+            "item" : "9",
+            "count" : 7
+          }, {
+            "item" : "48",
+            "count" : 6
+          }, {
+            "item" : "11",
+            "count" : 5
+          }, {
+            "item" : "24",
+            "count" : 4
+          }, {
+            "item" : "406",
+            "count" : 3
+          }, {
+            "item" : "98",
+            "count" : 2
+          }, {
+            "item" : "58",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "4241"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693906,
+        "name" : "Age_Group_25_to_44_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_25_to_44_rate",
+        "position" : 36,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060923,
+        "width" : 247,
+        "cachedContents" : {
+          "non_null" : 126,
+          "average" : "44.89939779579610",
+          "largest" : "159.642401021711",
+          "null" : 70,
+          "top" : [ {
+            "item" : "36.2020733914761",
+            "count" : 20
+          }, {
+            "item" : "34.7909864582776",
+            "count" : 19
+          }, {
+            "item" : "17.9754506702275",
+            "count" : 18
+          } ],
+          "smallest" : "10.7245506413281",
+          "sum" : "5657.3241222703081"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693907,
+        "name" : "Age_Group_45_to_64_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_45_to_64_cases",
+        "position" : 37,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060924,
+        "width" : 257,
+        "cachedContents" : {
+          "non_null" : 114,
+          "average" : "28.37719298245614",
+          "largest" : "317",
+          "null" : 82,
+          "top" : [ {
+            "item" : "50",
+            "count" : 20
+          }, {
+            "item" : "15",
+            "count" : 19
+          }, {
+            "item" : "5",
+            "count" : 18
+          }, {
+            "item" : "17",
+            "count" : 17
+          }, {
+            "item" : "13",
+            "count" : 16
+          }, {
+            "item" : "9",
+            "count" : 15
+          }, {
+            "item" : "40",
+            "count" : 14
+          }, {
+            "item" : "6",
+            "count" : 13
+          }, {
+            "item" : "7",
+            "count" : 12
+          }, {
+            "item" : "12",
+            "count" : 11
+          }, {
+            "item" : "8",
+            "count" : 10
+          }, {
+            "item" : "25",
+            "count" : 9
+          }, {
+            "item" : "11",
+            "count" : 8
+          }, {
+            "item" : "10",
+            "count" : 7
+          }, {
+            "item" : "23",
+            "count" : 6
+          }, {
+            "item" : "47",
+            "count" : 5
+          }, {
+            "item" : "27",
+            "count" : 4
+          }, {
+            "item" : "73",
+            "count" : 3
+          }, {
+            "item" : "20",
+            "count" : 2
+          }, {
+            "item" : "16",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "3235"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693908,
+        "name" : "Age_Group_45_to_64_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_45_to_64_rate",
+        "position" : 38,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060925,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 111,
+          "average" : "40.87150745866154",
+          "largest" : "103.512971469237",
+          "null" : 85,
+          "top" : [ {
+            "item" : "69.0714435022857",
+            "count" : 20
+          }, {
+            "item" : "96.5594348732022",
+            "count" : 19
+          }, {
+            "item" : "78.3198932528862",
+            "count" : 18
+          }, {
+            "item" : "30.3842223020192",
+            "count" : 17
+          }, {
+            "item" : "57.3128891191873",
+            "count" : 16
+          }, {
+            "item" : "62.9485081203576",
+            "count" : 15
+          }, {
+            "item" : "73.3934978797434",
+            "count" : 14
+          }, {
+            "item" : "103.512971469237",
+            "count" : 13
+          }, {
+            "item" : "49.7729110931376",
+            "count" : 12
+          }, {
+            "item" : "53.5833891493637",
+            "count" : 11
+          }, {
+            "item" : "27.7713492247165",
+            "count" : 10
+          }, {
+            "item" : "37.8155016054399",
+            "count" : 9
+          }, {
+            "item" : "60.8272506082725",
+            "count" : 8
+          }, {
+            "item" : "73.7362427287872",
+            "count" : 7
+          }, {
+            "item" : "35.8731525326446",
+            "count" : 6
+          }, {
+            "item" : "64.26735218509",
+            "count" : 5
+          }, {
+            "item" : "24.5012803894913",
+            "count" : 4
+          }, {
+            "item" : "17.9157957599283",
+            "count" : 3
+          }, {
+            "item" : "30.9565576307915",
+            "count" : 2
+          }, {
+            "item" : "20.3141928494041",
+            "count" : 1
+          } ],
+          "smallest" : "13.1236466239419",
+          "sum" : "4536.7373279114307"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693909,
+        "name" : "Age_Group_65Plus_Cases",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_65plus_cases",
+        "position" : 39,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060926,
+        "width" : 260,
+        "cachedContents" : {
+          "non_null" : 72,
+          "average" : "16.68055555555556",
+          "largest" : "117",
+          "null" : 124,
+          "top" : [ {
+            "item" : "109",
+            "count" : 20
+          }, {
+            "item" : "14",
+            "count" : 19
+          }, {
+            "item" : "7",
+            "count" : 18
+          }, {
+            "item" : "6",
+            "count" : 17
+          }, {
+            "item" : "23",
+            "count" : 16
+          }, {
+            "item" : "8",
+            "count" : 15
+          }, {
+            "item" : "12",
+            "count" : 14
+          }, {
+            "item" : "5",
+            "count" : 13
+          }, {
+            "item" : "19",
+            "count" : 12
+          }, {
+            "item" : "18",
+            "count" : 11
+          }, {
+            "item" : "9",
+            "count" : 10
+          }, {
+            "item" : "108",
+            "count" : 9
+          }, {
+            "item" : "25",
+            "count" : 8
+          }, {
+            "item" : "10",
+            "count" : 7
+          }, {
+            "item" : "16",
+            "count" : 6
+          }, {
+            "item" : "17",
+            "count" : 5
+          }, {
+            "item" : "115",
+            "count" : 4
+          }, {
+            "item" : "15",
+            "count" : 3
+          }, {
+            "item" : "30",
+            "count" : 2
+          }, {
+            "item" : "13",
+            "count" : 1
+          } ],
+          "smallest" : "5",
+          "sum" : "1201"
+        },
+        "format" : { }
+      }, {
+        "id" : 227693910,
+        "name" : "Age_Group_65Plus_Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "age_group_65plus_rate",
+        "position" : 40,
+        "renderTypeName" : "number",
+        "tableColumnId" : 31060927,
+        "width" : 237,
+        "cachedContents" : {
+          "non_null" : 72,
+          "average" : "40.80915592261688",
+          "largest" : "143.313857347591",
+          "null" : 124,
+          "top" : [ {
+            "item" : "31.9631784184619",
+            "count" : 20
+          }, {
+            "item" : "38.0662352493338",
+            "count" : 19
+          }, {
+            "item" : "143.313857347591",
+            "count" : 18
+          }, {
+            "item" : "30.238092107858",
+            "count" : 17
+          }, {
+            "item" : "71.1418263123126",
+            "count" : 16
+          }, {
+            "item" : "31.3750098046906",
+            "count" : 15
+          }, {
+            "item" : "36.5688015881308",
+            "count" : 14
+          }, {
+            "item" : "40.9109504977499",
+            "count" : 13
+          }, {
+            "item" : "17.9826082488793",
+            "count" : 12
+          }, {
+            "item" : "27.4107779178773",
+            "count" : 11
+          }, {
+            "item" : "25.7471628607078",
+            "count" : 10
+          }, {
+            "item" : "33.802055164954",
+            "count" : 9
+          }, {
+            "item" : "44.6162998215348",
+            "count" : 8
+          }, {
+            "item" : "30.2999697000303",
+            "count" : 7
+          }, {
+            "item" : "41.1219807808848",
+            "count" : 6
+          }, {
+            "item" : "63.4481167445348",
+            "count" : 5
+          }, {
+            "item" : "28.1685732617643",
+            "count" : 4
+          }, {
+            "item" : "37.1494025137762",
+            "count" : 3
+          }, {
+            "item" : "47.1648674143172",
+            "count" : 2
+          }, {
+            "item" : "53.5905680600214",
+            "count" : 1
+          } ],
+          "smallest" : "17.9826082488793",
+          "sum" : "2938.2592264284152"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "year"
+          } ]
+        }
+      },
+      "owner" : {
+        "id" : "sd98-xisa",
+        "displayName" : "F Larios",
+        "roleName" : "administrator",
+        "screenName" : "F Larios",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 227693875,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "sd98-xisa",
+        "displayName" : "F Larios",
+        "roleName" : "administrator",
+        "screenName" : "F Larios",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "acute substance", "acute", "substance", "hospitalization", "disorder", "icd‐9 codes 292", "305.2‐305.9" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "89DEF2FF-DB29-4AF8-9E20-18294A1CFFCE", 1, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "San Diego County (Actual Rate)", "0", "0", "COUNTY", "99", null, "99", null, "99", "County Total", "861", "27.8162499236749", "26.6569966549033", "485", "31.2162293498207", "376", "24.3897059872836", "593", "39.532094661034", "55", "37.5170532060027", "135", "13.6178213906721", "23", "6.73377015007524", "23", "19.8693804208853", "6", "1.00642771836127", "224", "45.1754076374674", "280", "31.4082682266107", "242", "31.8257736161706", "109", "31.0165753717009" ]
+, [ 2, "2B03C6A7-62E1-4D86-A965-195FA8927044", 2, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Central Region", "99", "99", "REGION CENTRAL", "99", null, "99", null, "99", "Central Region", "146", "30.1392598953796", "29.5065838855119", "83", "33.5089525424413", "63", "26.6133835748956", "80", "55.6947925368978", "29", "51.1662373407671", "32", "15.6584117477234", null, null, null, null, null, null, "19", "22.8535687651856", "63", "39.0196770657203", "50", "46.8533303347202", "14", "32.3467572375869" ]
+, [ 3, "35F6911D-B14F-43D7-AF77-B508978189B1", 3, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Central San Diego", "1", "3", "CENTRAL", "5", "Very Urban Area", "2", "Low Income", "4", "Supervisorial District 4", "72", "43.4858761498088", "37.4304494677556", "46", "50.8174988952718", "26", "34.6431093523071", "45", "54.6839873133149", "14", "121.929977355861", "11", "19.089930929159", null, null, null, null, null, null, "9", "39.147455415398", "32", "45.8899787758848", "30", "79.0555496995889", null, null ]
+, [ 4, "46E12128-9313-4096-AF9C-0A4063672DC8", 4, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Mid-City", "6", "3", "CENTRAL", "5", "Very Urban Area", "1", "Lowest Income", "4", "Supervisorial District 4", "43", "26.3735724537236", "28.7098366255806", "24", "29.5541024788503", "19", "23.217449746441", "27", "58.1270182992465", null, null, "10", "14.6060030672606", null, null, null, null, null, null, null, null, "17", "33.7274819458773", "15", "45.7777642139958", "7", "54.7602284283814" ]
+, [ 5, "B1D15E7E-CB6B-47E7-85AD-F6A5DE861052", 5, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Southeastern San Diego", "5", "3", "CENTRAL", "5", "Very Urban Area", "2", "Low Income", "4", "Supervisorial District 4", "31", "19.8966657039248", "21.8711992876128", "13", "17.1124684077506", "18", "22.5459373473452", "8", "53.6948788509296", "11", "42.5071489295927", "11", "14.052838673412", null, null, null, null, null, null, "6", "22.3313979455114", "14", "33.8810774182619", "5", "13.8885030971362", "6", "40.1176785236694" ]
+, [ 6, "5BB2616E-2313-4D5D-AB9A-81838C61AEB7", 6, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "East Region", "99", "99", "REGION EAST", "99", null, "99", null, "99", "East Region", "191", "41.2430793680956", "39.7358305416784", "97", "42.5347184157791", "94", "39.9899599674975", "136", "48.7001360739096", "9", "33.8625931221311", "28", "24.2206152036262", "6", "29.0219599496953", "7", "33.3460365853659", null, null, "42", "61.2914994527545", "63", "51.9814846902151", "63", "49.4330887833968", "23", "41.1081322609473" ]
+, [ 7, "FF943070-A619-4F96-8CA9-0F3A51066549", 7, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Alpine", "38", "5", "EAST", "1", "Rural Area", "5", "High Income", "2", "Supervisorial District 2", "7", "46.5580312603924", "51.2811106170746", null, null, null, null, "6", "50.8001016002032", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 8, "76DB206B-9F44-4ACE-BB1D-819F2AB3CBE3", 8, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "El Cajon", "34", "5", "EAST", "4", "Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "42", "33.7278961823234", "31.7307051891144", "17", "27.9027016380527", "25", "39.3081761006289", "31", "42.0852565843063", null, null, null, null, null, null, null, null, null, null, "12", "61.0376398779247", "7", "21.2044105173876", "17", "53.6294520331872", "6", "40.908161178155" ]
+, [ 9, "4CF2EB6D-E064-4F41-9B6F-DAD589695F10", 9, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Harbison Crest/El Cajon", "37", "5", "EAST", "99", null, "99", null, "2", "Supervisorial District 2", "63", "45.2680515337247", "43.3677431782604", "28", "41.0340582683627", "35", "49.3409459364207", "48", "56.276599486476", null, null, "6", "17.0232083073257", null, null, null, null, null, null, "17", "78.9779326364692", "17", "47.4290656474067", "22", "59.5640990930012", "7", "40.9141387573792" ]
+, [ 10, "CA8C64BF-5BBA-4F67-BE25-9AABD7F4FA86", 10, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Jamul", "30", "5", "EAST", "1", "Rural Area", "6", "Highest Income", "2", "Supervisorial District 2", "7", "36.9237261314485", "34.0328181544734", "7", "64.2260757867694", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 11, "A115DAC9-C010-41B8-BE11-A7DDB8C6D521", 11, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "La Mesa", "33", "5", "EAST", "4", "Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "35", "59.2276711679697", "51.5524866726125", "17", "60.3200510946315", "18", "58.2316974539808", "31", "83.6865264692385", null, null, null, null, null, null, null, null, null, null, "10", "118.567702157932", "6", "35.1349768694736", "13", "84.6354166666667", "6", "69.8080279232112" ]
+, [ 12, "9A4BC66D-AA94-4A4D-B611-29F054BBCB48", 12, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Laguna-Pine Valley", "61", "5", "EAST", "1", "Rural Area", "3", "Moderately Low Income", "2", "Supervisorial District 2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 13, "8EF6F59E-C8A6-4291-B06C-C3EA17ACC70D", 13, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Lakeside", "36", "5", "EAST", "2", "Exurban Area", "3", "Moderately Low Income", "2", "Supervisorial District 2", "24", "42.8418421992146", "40.197974798359", "12", "43.3150447588796", "12", "42.3788670716203", "16", "39.1705633216638", null, null, null, null, null, null, null, null, null, null, "6", "75", "7", "48.3325277912035", "9", "56.1622464898596", null, null ]
+, [ 14, "B00BF81B-EA0E-4C76-B4A3-C42CDBD35D0C", 14, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Lemon Grove", "32", "5", "EAST", "5", "Very Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "13", "43.6080641373989", "45.9612188937626", null, null, "9", "58.7774294670846", "7", "73.9410584134361", null, null, null, null, null, null, null, null, null, null, null, null, "7", "87.2382851445663", null, null, null, null ]
+, [ 15, "6A44E250-C77F-4281-8057-9957B609C163", 15, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Mountain Empire", "62", "5", "EAST", "1", "Rural Area", "2", "Low Income", "2", "Supervisorial District 2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 16, "8DF09733-D59B-4C3A-A1D5-DF216B70FE28", 16, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Santee", "35", "5", "EAST", "3", "Suburban Area", "4", "Moderately High Income", "2", "Supervisorial District 2", "17", "33.2349318683897", "34.4387283101998", "8", "32.3023499959622", "9", "34.1102899374645", "12", "31.5980725175764", null, null, "5", "61.4703712810425", null, null, null, null, null, null, null, null, "12", "86.5176640230714", null, null, null, null ]
+, [ 17, "DEDB5E92-3320-42B5-8E94-3378F4C8EED5", 17, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Spring Valley", "31", "5", "EAST", "4", "Urban Area", "4", "Moderately High Income", "2", "Supervisorial District 2", "23", "28.3947111764052", "28.6391396337368", "15", "38.0527156954768", "8", "19.2390938386802", "12", "31.3659888127973", null, null, "7", "26.8693382465838", null, null, null, null, null, null, null, null, "6", "28.4873231412022", "9", "41.7304214772569", null, null ]
+, [ 18, "1DD0BA04-1BF7-4AA2-8429-0177F87E32E7", 18, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "North Central Region", "99", "99", "REGION N CENTRAL", "99", null, "99", null, "99", "North Central Region", "166", "27.4857645264749", "24.8075604767692", "102", "33.3849381560386", "64", "21.4461400298906", "122", "33.416509399078", "5", "26.6425107902169", "14", "16.3431119619906", "8", "7.38586530028159", "7", "26.8045184759717", null, null, "53", "51.66396974246", "50", "26.046414711015", "40", "27.9829863443027", "23", "31.9986644035727" ]
+, [ 19, "805AAA90-2DC0-485C-ADDD-B4377EBB776D", 19, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Coastal", "11", "2", "N CENTRAL", "3", "Suburban Area", "5", "High Income", "4", "Supervisorial District 4", "25", "33.167495854063", "27.9687311256956", "19", "48.9161217239071", "6", "16.4235075137547", "18", "29.5901760615476", null, null, null, null, null, null, null, null, null, null, "6", "53.8454635196985", "12", "43.3322500270827", null, null, null, null ]
+, [ 20, "727A6AAB-52FD-4E89-A9CD-5C9676B7D679", 20, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Del Mar-Mira Mesa", "13", "2", "N CENTRAL", "3", "Suburban Area", "6", "Highest Income", "3", "Supervisorial District 3", "30", "19.0392780305771", "20.8838573286257", "14", "17.7060542058202", "16", "20.3821656050955", "22", "28.9645184648805", null, null, null, null, null, null, null, null, null, null, "8", "41.4529250220219", "7", "14.7263011738966", "9", "20.0919766040095", "6", "44.0722785368004" ]
+, [ 21, "04611427-AEC1-4FB0-8FE6-7E20AE31E931", 21, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Elliott-Navajo", "17", "2", "N CENTRAL", "2", "Exurban Area", "5", "High Income", "3", "Supervisorial District 3", "24", "26.9342131842974", "27.3289118915565", "16", "37.0079104408567", "8", "17.4398325776073", "22", "36.6135769800456", null, null, null, null, null, null, null, null, null, null, "10", "90.1469395114036", null, null, "6", "26.6808964781217", null, null ]
+, [ 22, "86B2DD79-7076-444A-BF73-01936824C74F", 22, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Kearny Mesa", "10", "2", "N CENTRAL", "4", "Urban Area", "3", "Moderately Low Income", "4", "Supervisorial District 4", "63", "41.6644621977673", "39.138579426687", "36", "47.7789427581722", "27", "35.5914106062404", "41", "48.6110287753578", null, null, "5", "14.9316132114914", "6", "30.2648171500631", null, null, null, null, "15", "63.6753406630726", "23", "46.2590506838294", "17", "47.7152801167621", "8", "41.96170993968" ]
+, [ 23, "80293BFA-5621-42A6-9279-E00458A53481", 23, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Miramar", "16", "2", "N CENTRAL", "99", null, "99", null, "3", "Supervisorial District 3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 24, "0C74EAD7-EEB4-4CF9-9681-B3072827E336", 24, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Peninsula", "2", "2", "N CENTRAL", "4", "Urban Area", "3", "Moderately Low Income", "4", "Supervisorial District 4", "15", "23.8337358586501", "17.4175990091558", "13", "38.0306000058509", null, null, "11", "22.9343452244438", null, null, null, null, null, null, null, null, null, null, "9", "72.0057604608369", null, null, null, null, null, null ]
+, [ 25, "9F7C2878-D318-4AF0-BB33-B37DD7BAEFA3", 25, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "University", "12", "2", "N CENTRAL", "4", "Urban Area", "4", "Moderately High Income", "3", "Supervisorial District 3", "9", "14.3478884690803", "10.3593636096176", null, null, "5", "15.7942951006097", "8", "24.2969082184292", null, null, null, null, null, null, null, null, null, null, "5", "22.7915033275595", null, null, null, null, null, null ]
+, [ 26, "3B6E499A-15E3-4F3A-9349-DACBA4C0157F", 26, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "North Coastal Region", "99", "99", "REGION N COASTAL", "99", null, "99", null, "99", "North Coastal Region", "108", "21.3504136642647", "20.1832406011119", "60", "23.2708768854258", "48", "19.3539022305372", "75", "25.071872701745", null, null, "15", "10.4186925235462", null, null, null, null, null, null, "34", "40.6115623506928", "32", "23.4396173482468", "27", "21.6065683967926", "12", "20.1332147710686" ]
+, [ 27, "1A45A151-3021-4395-829C-C3CBBA685C43", 27, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Carlsbad", "41", "1", "N COASTAL", "3", "Suburban Area", "5", "High Income", "5", "Supervisorial District 5", "28", "24.4089545993444", "26.7364565679426", "18", "32.2748381775475", "10", "16.9661186610339", "19", "22.5185185185185", null, null, null, null, null, null, null, null, null, null, "11", "90.001636393389", "7", "23.2573592929763", "7", "21.4612012140908", null, null ]
+, [ 28, "EBB1E1B8-53F7-4DBA-AD06-033E2627DEE0", 28, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Oceanside", "42", "1", "N COASTAL", "3", "Suburban Area", "3", "Moderately Low Income", "5", "Supervisorial District 5", "30", "18.7828700225394", "17.8878312203068", "15", "18.9260119107702", "15", "18.6418771127461", "21", "28.285875919291", null, null, "6", "10.016861717224", null, null, null, null, null, null, "7", "27.604700686174", "7", "15.6718756996373", "12", "30.6717104590533", null, null ]
+, [ 29, "9C8AB355-FCBF-49BB-AD0B-A14B8DB1481C", 29, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Pendleton", "43", "1", "N COASTAL", "99", null, "99", null, "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 30, "9CF38169-7A1D-4A9D-876A-21A1CB0279A3", 30, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "San Dieguito", "40", "1", "N COASTAL", "2", "Exurban Area", "6", "Highest Income", "3", "Supervisorial District 3", "25", "26.7299632195706", "32.0688138729254", "15", "32.6001912544554", "10", "21.045542554087", "16", "21.8159010648887", null, null, null, null, null, null, null, null, null, null, "15", "159.914712153518", "6", "24.3279406398248", null, null, null, null ]
+, [ 31, "DE4F5B89-E1E0-4101-B11D-066E3374E0C2", 31, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Vista", "52", "1", "N COASTAL", "3", "Suburban Area", "2", "Low Income", "5", "Supervisorial District 5", "25", "24.8922167016817", "24.2055444843896", "12", "23.6681722253999", "13", "26.1401109949328", "19", "43.3236045238964", null, null, null, null, null, null, null, null, null, null, null, null, "12", "41.800195067577", "5", "21.218808351723", "5", "49.5343768575391" ]
+, [ 32, "142E966A-03C7-45DE-B619-1C80BAAF6716", 32, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "North Inland Region", "99", "99", "REGION N INLAND", "99", null, "99", null, "99", "North Inland Region", "154", "27.0408844125104", "27.1282552901665", "93", "33.1554348174847", "61", "21.1064630757999", "124", "39.391840806135", null, null, "19", "11.5839531764419", null, null, null, null, null, null, "56", "72.6442507264425", "40", "26.9476407340537", "37", "24.2924017306695", "19", "26.333661349115" ]
+, [ 33, "EC0AF979-C607-4BD1-8265-89B794CEE696", 33, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Anza-Borrego Springs", "63", "6", "N INLAND", "1", "Rural Area", "1", "Lowest Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 34, "8A529E73-929F-4FED-8586-C30FA815693D", 34, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Escondido", "50", "6", "N INLAND", "2", "Exurban Area", "3", "Moderately Low Income", "3", "Supervisorial District 3", "47", "28.8306414511014", "29.0241147720463", "28", "34.6230416342076", "19", "23.1284236153378", "34", "47.8199718706048", null, null, "8", "10.7947645391985", null, null, null, null, null, null, "11", "42.9067363576081", "16", "35.3419332037462", "15", "39.0696220665225", "5", "28.5290425653315" ]
+, [ 35, "41AA8891-8B87-467C-A28E-A6A0AA86A5BB", 35, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Fallbrook", "55", "6", "N INLAND", "1", "Rural Area", "4", "Moderately High Income", "5", "Supervisorial District 5", "8", "16.9118890580078", "16.0342770649454", "5", "21.2332257516562", null, null, "7", "25.6363303424281", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 36, "36D4440A-FC82-4B7B-8115-8E1B54ABE2C3", 36, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "North San Diego", "14", "6", "N INLAND", "3", "Suburban Area", "6", "Highest Income", "3", "Supervisorial District 3", "38", "35.6666854386064", "38.3907695653003", "20", "38.8372138182807", "18", "32.7005177581978", "32", "51.0708927830445", null, null, null, null, null, null, null, null, null, null, "17", "148.536478811708", "8", "25.9445435381871", "8", "27.6357606743126", null, null ]
+, [ 37, "E24FD57D-66CA-4697-9CBB-CD636E4DD600", 37, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Palomar-Julian", "60", "6", "N INLAND", "1", "Rural Area", "2", "Low Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 38, "87129E55-08DB-4DF7-A20F-9683FC4C911C", 38, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Pauma", "54", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 39, "E6CAA3D6-E751-4522-AF63-26758AF0455F", 39, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Poway", "15", "6", "N INLAND", "2", "Exurban Area", "6", "Highest Income", "2", "Supervisorial District 2", "16", "18.5376139773609", "19.4455012570431", "12", "28.4562485179037", null, null, "11", "18.9772962528466", null, null, null, null, null, null, null, null, null, null, "6", "59.3530517360768", null, null, null, null, null, null ]
+, [ 40, "42D00190-39D1-43C6-B000-B79F3B769DCC", 40, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Ramona", "39", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "2", "Supervisorial District 2", "20", "57.3558933180384", "57.9901337460115", "12", "68.4423658244453", "8", "46.1440849051162", "20", "80.5315079524864", null, null, null, null, null, null, null, null, null, null, "9", "174.182310818657", "5", "62.9643621710112", null, null, null, null ]
+, [ 41, "9DF0FE62-CAFA-466B-B4EB-1D4DCE7E4061", 41, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "San Marcos", "51", "6", "N INLAND", "3", "Suburban Area", "3", "Moderately Low Income", "5", "Supervisorial District 5", "18", "20.0077808036459", "20.3183262267229", "11", "25.0022729339031", "7", "15.2276534186082", "14", "30.8118933908489", null, null, null, null, null, null, null, null, null, null, "10", "79.7130330809087", null, null, null, null, null, null ]
+, [ 42, "51328B32-A4E5-4397-903B-7D45C4B68C70", 42, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Valley Center", "53", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 43, "1ACF35AF-5F77-4F9C-A4F4-D186747B88C0", 43, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "South Region", "99", "99", "REGION SOUTH", "99", null, "99", null, "99", "South Region", "96", "20.4915845758135", "20.8741539529943", "50", "21.3604012337768", "46", "19.6239873382621", "56", "57.0659927444666", "8", "40.6008932196508", "27", "9.72181214578398", null, null, null, null, null, null, "20", "24.7561519037481", "32", "24.2591483522732", "25", "23.582235973286", "18", "37.0660186977472" ]
+, [ 44, "E346BDEA-C37F-4F37-AA1F-5D924D8261BD", 44, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Chula Vista", "21", "4", "SOUTH", "5", "Very Urban Area", "1", "Lowest Income", "1", "Supervisorial District 1", "43", "37.3153756703751", "38.3401773589232", "23", "41.4108496426064", "20", "33.504766052971", "28", "131.073869487876", null, null, "11", "13.5243130263724", null, null, null, null, null, null, "7", "37.2479114563933", "16", "51.6528925619835", "11", "41.5706133555043", "9", "62.0090946672179" ]
+, [ 45, "AB162B2F-8F21-444D-8EB8-E7147A4612FB", 45, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Coronado", "3", "4", "SOUTH", "2", "Exurban Area", "6", "Highest Income", "1", "Supervisorial District 1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 46, "B5F591F5-3B2B-4201-913E-EE97E75E39E0", 46, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "National City", "4", "4", "SOUTH", "5", "Very Urban Area", "1", "Lowest Income", "1", "Supervisorial District 1", "11", "18.8621008950924", "18.44349080251", "8", "26.66400026664", null, null, null, null, null, null, "5", "13.4643866971859", null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 47, "674B98DF-8998-4D4B-AC9D-4C612056ABC9", 47, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "South Bay", "22", "4", "SOUTH", "3", "Suburban Area", "2", "Low Income", "1", "Supervisorial District 1", "22", "16.30668425812", "17.2723193570633", "12", "17.631501616221", "10", "14.957968109612", "9", "43.8489646772229", null, null, "9", "9.73688765795396", null, null, null, null, null, null, null, null, "10", "26.3601855757065", "6", "19.6084839373836", null, null ]
+, [ 48, "0499391B-395B-4ABF-BAA4-66142D331A6B", 48, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Sweetwater", "20", "4", "SOUTH", "3", "Suburban Area", "6", "Highest Income", "1", "Supervisorial District 1", "17", "12.5628140703518", "12.8160843631566", "7", "10.6173214014864", "10", "14.4112984579911", "13", "41.222729578894", null, null, null, null, null, null, null, null, null, null, "6", "30.9693403530505", null, null, null, null, null, null ]
+, [ 49, "BC99B5F1-2FC5-434F-8D68-E74AB160A097", 49, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2010", "Unknown", "99", "99", "UNKNOWN", "99", null, "99", null, "99", null, "81", null, null, "62", null, "19", null, "47", null, "17", null, "13", null, null, null, null, null, null, null, "18", null, "43", null, "20", null, null, null ]
+, [ 50, "11B91761-F99B-4A6A-9C6E-78F133B14B7D", 50, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "San Diego County (Actual Rate)", "0", "0", "COUNTY", "99", null, "99", null, "99", "County Total", "884", "28.3714347152105", "27.1180982697578", "507", "32.4419787687405", "377", "24.2752829969994", "631", "42.1909330280787", "60", "41.9859347118715", "117", "11.5751733308006", "13", "3.7278764868492", "38", "32.2539574757034", null, null, "258", "51.7509056408487", "288", "32.3259533630777", "228", "29.5731351414452", "108", "29.8418382572366" ]
+, [ 51, "0BE00B0E-F930-4C17-A0AE-F09441B31E9A", 51, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Central Region", "99", "99", "REGION CENTRAL", "99", null, "99", null, "99", "Central Region", "158", "32.5392118096744", "31.990747408577", "91", "36.6793499290597", "67", "28.2138525805148", "96", "67.4559955029336", "26", "47.3950927850086", "26", "12.510826676932", null, null, "6", "37.4321542204754", null, null, "25", "31.1336380278708", "68", "41.8242765322754", "46", "42.3845941214411", "18", "40.8515273932186" ]
+, [ 52, "B7C3D8B0-1AB2-463B-BE3B-B692D486FD9A", 52, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Central San Diego", "1", "3", "CENTRAL", "5", "Very Urban Area", "2", "Low Income", "4", "Supervisorial District 4", "86", "51.8178422086451", "46.7777254733135", "60", "66.2375942505768", "26", "34.4905350012602", "58", "70.8613317043372", "12", "107.971927298902", "12", "20.4610557904788", null, null, null, null, null, null, "11", "53.0452813811062", "41", "58.2262302066321", "26", "67.2390607220441", "7", "43.6164246993582" ]
+, [ 53, "F8089069-091D-496A-A3E3-C58DF3B61733", 53, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Mid-City", "6", "3", "CENTRAL", "5", "Very Urban Area", "1", "Lowest Income", "4", "Supervisorial District 4", "42", "25.7359249001201", "26.7067271033826", "19", "23.3782852642977", "23", "28.0748010351057", "29", "63.3907493223748", "5", "26.5999893600043", "5", "7.18783243725022", null, null, null, null, null, null, "9", "27.8267322140803", "17", "33.5484380241943", "10", "29.8667940983215", "6", "46.4864027272023" ]
+, [ 54, "753F156A-C0D5-47A6-A20C-6D2C3EC18B7D", 54, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Southeastern San Diego", "5", "3", "CENTRAL", "5", "Very Urban Area", "2", "Low Income", "4", "Supervisorial District 4", "30", "19.1808498395202", "20.3047998907465", "12", "15.7395627024829", "18", "22.4536892658891", "9", "61.1537677515798", "9", "36.0764821421413", "9", "11.3051124230624", null, null, null, null, null, null, "5", "18.3695212902752", "10", "24.0981275754874", "10", "27.4876305662452", "5", "33.0994306897921" ]
+, [ 55, "844F2C89-F6C7-4263-B33F-32889DFFA14B", 55, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "East Region", "99", "99", "REGION EAST", "99", null, "99", null, "99", "East Region", "188", "40.2871531126112", "39.591737442581", "93", "40.4715589383396", "95", "40.1082500559405", "144", "51.608278828062", "10", "38.392137290283", "15", "12.6120369280441", null, null, "13", "60.6569615528182", null, null, "58", "83.5927591375533", "55", "45.4906371997618", "50", "38.8482277438503", "25", "42.7416183686379" ]
+, [ 56, "4F6E2CA8-0FE9-49FD-8F75-C84ADCFD409B", 56, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Alpine", "38", "5", "EAST", "1", "Rural Area", "5", "High Income", "2", "Supervisorial District 2", "11", "72.5641533082657", "80.4222075452085", "5", "66.3658083355455", "6", "78.6885245901639", "10", "85.0123267873842", null, null, null, null, null, null, null, null, null, null, "7", "330.188679245283", null, null, null, null, null, null ]
+, [ 57, "BFBDA949-EEAB-4F1C-A4BB-8B4F81A67C69", 57, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "El Cajon", "34", "5", "EAST", "4", "Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "53", "42.3109777029131", "41.5264161110188", "37", "60.313630880579", "16", "25.0324639767198", "39", "53.0467899891186", null, null, "7", "20.6027784318342", null, null, null, null, null, null, "17", "86.3382427628238", "16", "48.3237692540018", "17", "53.0636451602834", null, null ]
+, [ 58, "1F0AB29D-AF87-47AA-ACF3-6A579E5624D3", 58, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Harbison Crest/El Cajon", "37", "5", "EAST", "99", null, "99", null, "2", "Supervisorial District 2", "86", "61.4136566833769", "60.6159867301348", "50", "72.7653753238059", "36", "50.4767246214246", "66", "77.5266644739933", null, null, "8", "22.1000580126523", null, null, "7", "101.449275362319", null, null, "26", "120.147874306839", "28", "78.0226823083568", "23", "61.7168003864008", "9", "50.8158771385015" ]
+, [ 59, "A456F9E7-0F9A-4689-8EC1-2CD5F9CDE8C8", 59, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Jamul", "30", "5", "EAST", "1", "Rural Area", "6", "Highest Income", "2", "Supervisorial District 2", "8", "45.5114347479804", "39.0040596931051", null, null, "6", "80.2782981000803", "7", "73.2370788867964", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 60, "26B0C104-F364-4B64-87CF-CC6777847419", 60, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "La Mesa", "33", "5", "EAST", "4", "Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "23", "38.3422798653019", "36.0246783976891", "11", "38.42526286373", "12", "38.26652635607", "19", "50.9478990695305", null, null, null, null, null, null, null, null, null, null, "8", "97.9312033296609", null, null, "7", "44.6172477532029", "5", "56.4652738565782" ]
+, [ 61, "F517C8A9-06CF-42BC-A4FB-3D876D948CE9", 61, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Laguna-Pine Valley", "61", "5", "EAST", "1", "Rural Area", "3", "Moderately Low Income", "2", "Supervisorial District 2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 62, "977FEFEA-77E9-4CD0-BF9B-C00AEC337F84", 62, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Lakeside", "36", "5", "EAST", "2", "Exurban Area", "3", "Moderately Low Income", "2", "Supervisorial District 2", "15", "26.6127315307643", "27.5747856623355", "6", "21.5238915195867", "9", "31.592249368155", "10", "24.4660289188462", null, null, null, null, null, null, null, null, null, null, null, null, "6", "41.6927246195539", null, null, null, null ]
+, [ 63, "7CB0B763-3662-4814-B50B-2CEAA6DF3B62", 63, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Lemon Grove", "32", "5", "EAST", "5", "Very Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "6", "20.0340578984273", "20.9878545258696", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 64, "496AB62E-7993-4249-9EC7-E332CE18B6B0", 64, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Mountain Empire", "62", "5", "EAST", "1", "Rural Area", "2", "Low Income", "2", "Supervisorial District 2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 65, "1AB20B21-D4A3-4C56-B25C-F8ECF86872D6", 65, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Santee", "35", "5", "EAST", "3", "Suburban Area", "4", "Moderately High Income", "2", "Supervisorial District 2", "19", "36.7554601203258", "37.6235671285754", "8", "31.9693094629156", "11", "41.2463909407927", "16", "41.9122462344466", null, null, null, null, null, null, null, null, null, null, "7", "96.6183574879227", "9", "65.6790483835656", null, null, null, null ]
+, [ 66, "68867751-091B-49DC-B22C-457E079EFAA6", 66, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Spring Valley", "31", "5", "EAST", "4", "Urban Area", "4", "Moderately High Income", "2", "Supervisorial District 2", "16", "19.5747387995791", "19.2280422827515", "7", "17.6029774178947", "9", "21.4428666730201", "10", "26.1383240106644", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "7", "32.1661611984193", null, null ]
+, [ 67, "03AC3542-EA70-43AD-8707-725A4BCA3C83", 67, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "North Central Region", "99", "99", "REGION N CENTRAL", "99", null, "99", null, "99", "North Central Region", "173", "28.3725163797981", "25.4877299376846", "100", "32.4199551307821", "73", "24.2289067452613", "132", "36.1446772855347", "12", "64.1848523748395", "17", "19.3747649385136", null, null, null, null, null, null, "58", "56.0126704523506", "50", "25.8179114342366", "47", "32.5320302063361", "18", "24.4309621727269" ]
+, [ 68, "8BEF8B39-D596-4E8E-98D4-972ACC36DB4C", 68, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Coastal", "11", "2", "N CENTRAL", "3", "Suburban Area", "5", "High Income", "4", "Supervisorial District 4", "31", "41.0297134537754", "39.7179331834147", "22", "56.4957243008654", "9", "24.580761457366", "25", "41.2364332134728", null, null, null, null, null, null, null, null, null, null, "13", "117.774959231745", "8", "28.6985220261157", "10", "60.9347388946438", null, null ]
+, [ 69, "3DD90F4D-0236-4141-9C30-F4AD8C6509C4", 69, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Del Mar-Mira Mesa", "13", "2", "N CENTRAL", "3", "Suburban Area", "6", "Highest Income", "3", "Supervisorial District 3", "29", "18.2986080438157", "19.5105143272248", "18", "22.6688831796887", "11", "13.9103163964693", "24", "31.6710434289183", null, null, null, null, null, null, null, null, null, null, "15", "75.0262591907168", "5", "10.7245506413281", "6", "13.1236466239419", null, null ]
+, [ 70, "9904FE90-1AE0-4C26-9360-3BC615E0E9BD", 70, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Elliott-Navajo", "17", "2", "N CENTRAL", "2", "Exurban Area", "5", "High Income", "3", "Supervisorial District 3", "31", "34.6659211629857", "35.6223069330053", "13", "29.9615109820461", "18", "39.0998349118082", "23", "38.4005342683029", null, null, null, null, null, null, null, null, null, null, "13", "120.003692421305", "6", "23.6453201970443", "11", "48.6876466162086", null, null ]
+, [ 71, "CC4BEAA3-CB49-4FD2-9843-CB17C5E24CDE", 71, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Kearny Mesa", "10", "2", "N CENTRAL", "4", "Urban Area", "3", "Moderately Low Income", "4", "Supervisorial District 4", "54", "35.5975108110959", "31.7427084850817", "29", "38.3785715230999", "25", "32.8372716167759", "37", "44.0775287993043", "7", "106.173214014864", "7", "20.542920029347", null, null, null, null, null, null, "10", "45.4793523740222", "21", "41.4356464947416", "13", "35.9682372796945", "10", "51.5889393314073" ]
+, [ 72, "07EAC599-66C7-4180-B71E-780FF56916E3", 72, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Miramar", "16", "2", "N CENTRAL", "99", null, "99", null, "3", "Supervisorial District 3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 73, "658BEFB1-1F9B-41C8-9764-A5019D29D8BF", 73, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Peninsula", "2", "2", "N CENTRAL", "4", "Urban Area", "3", "Moderately Low Income", "4", "Supervisorial District 4", "19", "30.1300348874088", "30.1026445088922", "14", "40.7284575551289", "5", "17.4301052778359", "16", "33.5394612724033", null, null, null, null, null, null, null, null, null, null, null, null, "9", "42.1921147625522", null, null, null, null ]
+, [ 74, "464F394F-7987-4C57-8777-3F309EF69DC9", 74, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "University", "12", "2", "N CENTRAL", "4", "Urban Area", "4", "Moderately High Income", "3", "Supervisorial District 3", "9", "13.5374988718751", "12.876677925347", null, null, "5", "14.8978010845599", "7", "20.4642460387067", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 75, "0E9E3352-3008-4799-A063-59C1056B511A", 75, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "North Coastal Region", "99", "99", "REGION N COASTAL", "99", null, "99", null, "99", "North Coastal Region", "141", "27.6564403219131", "26.5073099989374", "83", "31.962415280345", "58", "23.1863664165471", "109", "36.451801688822", null, null, "16", "10.9002220920251", null, null, "5", "26.6680889647448", null, null, "49", "58.0733857969091", "48", "35.1586534235739", "28", "22.0825413850485", "16", "25.9584340574655" ]
+, [ 76, "E8440307-122D-4230-98FE-CAC11E5E3ACE", 76, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Carlsbad", "41", "1", "N COASTAL", "3", "Suburban Area", "5", "High Income", "5", "Supervisorial District 5", "31", "26.7573539566358", "29.0811708805556", "17", "30.1868030399886", "14", "23.5136042996305", "26", "30.7031010132023", null, null, null, null, null, null, null, null, null, null, "11", "85.7365549493375", "11", "37.1571409269018", "6", "18.1044627500679", null, null ]
+, [ 77, "B040CA16-C88B-4EA6-8916-94A5DB8D5D43", 77, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Oceanside", "42", "1", "N COASTAL", "3", "Suburban Area", "3", "Moderately Low Income", "5", "Supervisorial District 5", "39", "24.3605359317905", "23.8410028463777", "25", "31.4639548932743", "14", "17.3613264053374", "30", "40.7077724706904", null, null, null, null, null, null, null, null, null, null, "11", "44.4336726450153", "19", "42.5274749871298", "8", "20.348467506041", null, null ]
+, [ 78, "CF2B39D6-5E9F-4F5C-A765-DD936211E4C7", 78, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Pendleton", "43", "1", "N COASTAL", "99", null, "99", null, "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 79, "B2DB3A3A-72D0-4208-9BF8-B9CAD3F4BFF4", 79, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "San Dieguito", "40", "1", "N COASTAL", "2", "Exurban Area", "6", "Highest Income", "3", "Supervisorial District 3", "34", "35.8286966784691", "40.2607180958318", "22", "47.1465615155476", "12", "24.8792320610371", "30", "40.5334198046289", null, null, null, null, null, null, null, null, null, null, "17", "169.626820993814", "8", "32.7171601504989", null, null, "6", "42.9768641214813" ]
+, [ 80, "74A31CF7-3628-4243-937B-1C721DA52813", 80, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Vista", "52", "1", "N COASTAL", "3", "Suburban Area", "2", "Low Income", "5", "Supervisorial District 5", "36", "35.5278350718945", "35.8924201901551", "18", "35.2147119240927", "18", "35.8465766519297", "22", "50.422864477092", null, null, "9", "18.8457994806935", null, null, null, null, null, null, "9", "54.5752228488266", "10", "34.564999481525", "11", "45.6658917303222", "6", "57.6479631053036" ]
+, [ 81, "C709E22B-1AF3-466D-9CF2-06E626FBAFBA", 81, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "North Inland Region", "99", "99", "REGION N INLAND", "99", null, "99", null, "99", "North Inland Region", "152", "26.4547962371533", "26.2205542246875", "97", "34.2722274827932", "55", "18.8655299327358", "120", "38.2312929504682", null, null, "17", "10.095491472279", null, null, "8", "37.1074725172782", null, null, "59", "73.988613277821", "41", "27.8902078160607", "34", "22.0049057995871", "17", "22.7759914255091" ]
+, [ 82, "942A468B-7CAD-4D55-8D37-E4774EC9910E", 82, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Anza-Borrego Springs", "63", "6", "N INLAND", "1", "Rural Area", "1", "Lowest Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 83, "C84A109C-1DCA-4899-AA19-B8AB45B62EC3", 83, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Escondido", "50", "6", "N INLAND", "2", "Exurban Area", "3", "Moderately Low Income", "3", "Supervisorial District 3", "45", "27.4007635679448", "26.4667249633751", "35", "42.9500552214996", "10", "12.086198769625", "36", "51.0392151302918", null, null, "7", "9.2445853143159", null, null, null, null, null, null, "11", "42.475962466695", "16", "35.3513035793195", "11", "28.1128603557555", "6", "33.6568126998373" ]
+, [ 84, "43885531-BBA9-4E04-B43D-B384B18F9486", 84, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Fallbrook", "55", "6", "N INLAND", "1", "Rural Area", "4", "Moderately High Income", "5", "Supervisorial District 5", "9", "18.8001336898396", "18.0221120693784", "5", "20.9634816150266", null, null, "8", "29.3772032902468", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 85, "645C9315-BA29-409B-83CF-F9275F82C50E", 85, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "North San Diego", "14", "6", "N INLAND", "3", "Suburban Area", "6", "Highest Income", "3", "Supervisorial District 3", "32", "29.7356316498629", "34.0416498751835", "23", "44.202717506198", "9", "16.1922924687849", "23", "36.620705028182", null, null, null, null, null, null, null, null, null, null, "19", "158.333333333333", "9", "29.5721889991457", null, null, null, null ]
+, [ 86, "5B6053C7-4781-4E4D-9EE5-257522685F4A", 86, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Palomar-Julian", "60", "6", "N INLAND", "1", "Rural Area", "2", "Low Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 87, "24BDDFB5-9E2C-4AAE-8799-4DCA4086B6BF", 87, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Pauma", "54", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 88, "F0C9377C-0505-402F-984E-0852188AC719", 88, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Poway", "15", "6", "N INLAND", "2", "Exurban Area", "6", "Highest Income", "2", "Supervisorial District 2", "25", "28.7683686033532", "29.102762050522", "12", "28.2685512367491", "13", "29.2456862612765", "21", "36.2400124251471", null, null, null, null, null, null, null, null, null, null, "14", "127.807193719189", null, null, "8", "29.2750759322282", null, null ]
+, [ 89, "26B04B7C-C10D-46E6-8585-CBF486D30EFD", 89, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Ramona", "39", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "2", "Supervisorial District 2", "12", "33.8667344001355", "35.2399300856853", "7", "39.3302618271716", "5", "28.3527076835838", "11", "43.9613140436416", null, null, null, null, null, null, null, null, null, null, null, null, "5", "63.2511068943707", null, null, null, null ]
+, [ 90, "2E83AB64-6381-4B45-B6B8-75A8832CBC00", 90, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "San Marcos", "51", "6", "N INLAND", "3", "Suburban Area", "3", "Moderately Low Income", "5", "Supervisorial District 5", "20", "22.1758992327139", "21.3334200244568", "11", "24.9342642125306", "9", "19.534641430804", "13", "28.9313214937464", null, null, null, null, null, null, null, null, null, null, "7", "54.7430984593728", "5", "20.0779022607718", null, null, "5", "41.9956324542248" ]
+, [ 91, "1214E7F6-00DF-46A1-8CD3-6E56DCC4F588", 91, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Valley Center", "53", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 92, "4CF94943-8D12-4EDA-9E34-78D46FC757F2", 92, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "South Region", "99", "99", "REGION SOUTH", "99", null, "99", null, "99", "South Region", "72", "15.3369332523884", "15.6578197453984", "43", "18.3962728295607", "29", "12.3031496062992", "30", "31.2048180239029", "7", "37.236023192723", "26", "9.24908131721147", null, null, null, null, null, null, "9", "11.0846994199007", "26", "19.9626851347097", "23", "21.3055681639232", "14", "28.3395072974231" ]
+, [ 93, "42ADA518-F44A-42E0-A83A-7316C3FDD958", 93, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Chula Vista", "21", "4", "SOUTH", "5", "Very Urban Area", "1", "Lowest Income", "1", "Supervisorial District 1", "26", "22.4306160654974", "22.8726818901172", "15", "26.8682381600631", "11", "18.3073978530415", "9", "42.9963691954902", null, null, "12", "14.5410481672221", null, null, null, null, null, null, null, null, "8", "25.8891298016245", "8", "29.6978246343455", "6", "40.9053722388874" ]
+, [ 94, "01C880BC-A209-42C4-AB74-238147797F17", 94, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Coronado", "3", "4", "SOUTH", "2", "Exurban Area", "6", "Highest Income", "1", "Supervisorial District 1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 95, "51B42CE9-E4F8-4A75-BDDB-DF3CCE814256", 95, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "National City", "4", "4", "SOUTH", "5", "Very Urban Area", "1", "Lowest Income", "1", "Supervisorial District 1", "5", "8.54832367372758", "8.82541324913659", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 96, "0EDEB65D-B09C-4924-9D2E-0E6CFA74696C", 96, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "South Bay", "22", "4", "SOUTH", "3", "Suburban Area", "2", "Low Income", "1", "Supervisorial District 1", "23", "17.0211506297826", "17.9557684469364", "13", "19.1036002939015", "10", "14.9084620430556", "7", "34.7999005717127", null, null, "10", "10.7204116638079", null, null, null, null, null, null, null, null, "7", "18.6125661410833", "11", "35.5825839425503", "5", "37.8787878787879" ]
+, [ 97, "E9A2E197-EC49-4B77-A09C-FE56E29CB857", 97, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Sweetwater", "20", "4", "SOUTH", "3", "Suburban Area", "6", "Highest Income", "1", "Supervisorial District 1", "14", "10.2492020264137", "10.2520529594032", "9", "13.5370916310691", "5", "7.13144682793245", "6", "19.0924712021893", null, null, null, null, null, null, null, null, null, null, null, null, "7", "17.5328741390106", null, null, null, null ]
+, [ 98, "9C303C6E-FBE3-482F-B502-C6ECB1E1BC8B", 98, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2011", "Unknown", "99", "99", "UNKNOWN", "99", null, "99", null, "99", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 99, "210B7CFC-ADC8-45AE-B00E-AED68A1FBC97", 99, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "San Diego County (Actual Rate)", "0", "0", "COUNTY", "99", null, "99", null, "99", "County Total", "1124", "35.7571301912657", "34.2886844393971", "628", "39.8491569809314", "496", "31.6430258388273", "762", "51.0614345448697", "68", "48.786437370411", "182", "17.5807021848369", "24", "6.74280416368157", "44", "36.4948368100195", "6", "0.996272281214456", "333", "66.240183324183", "384", "43.1435951423008", "286", "36.9565385937391", "115", "30.7047405449424" ]
+, [ 100, "A5B14806-E0C0-4833-8A59-38DBFC04DDC9", 100, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Central Region", "99", "99", "REGION CENTRAL", "99", null, "99", null, "99", "Central Region", "183", "37.441995596985", "36.1304892523632", "90", "36.0706985691956", "93", "38.8721232538893", "95", "67.0908692858", "33", "62.2089844854563", "35", "16.4815242113591", null, null, "8", "48.7983408564109", null, null, "25", "31.8236207642761", "71", "43.443144549415", "72", "65.8093175025364", "15", "33.2535248736366" ]
+, [ 101, "0D08C0B3-1785-4EE1-95F4-EBFEC337B435", 101, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Central San Diego", "1", "3", "CENTRAL", "5", "Very Urban Area", "2", "Low Income", "4", "Supervisorial District 4", "91", "54.5498141709627", "49.6502865654004", "52", "57.217050681103", "39", "51.3576865337512", "61", "74.8980894847994", "9", "83.7832805808974", "14", "23.3329444509258", null, null, null, null, null, null, "13", "68.30960012611", "38", "53.7847477778407", "35", "89.6080288793876", "5", "29.9922020274729" ]
+, [ 102, "81B58561-5295-4C08-85C9-3079BFA5CC28", 102, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Mid-City", "6", "3", "CENTRAL", "5", "Very Urban Area", "1", "Lowest Income", "4", "Supervisorial District 4", "55", "33.3529408197546", "35.0903317642656", "21", "25.5763820380723", "34", "41.0647857384415", "29", "63.5700037265175", "9", "48.9662676822633", "9", "12.6280342360039", null, null, null, null, null, null, "5", "15.6089033184528", "22", "42.9779835511536", "21", "61.6758201415607", "7", "53.1955315753477" ]
+, [ 103, "51A43440-DB6C-414B-8DF6-36371BE61874", 103, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Southeastern San Diego", "5", "3", "CENTRAL", "5", "Very Urban Area", "2", "Low Income", "4", "Supervisorial District 4", "37", "23.5619264740532", "23.4609855319157", "17", "22.2161236784673", "20", "24.8410174880763", "5", "34.3973582828839", "15", "62.6959247648903", "12", "14.7987371744278", null, null, null, null, null, null, "7", "25.4601003855387", "11", "26.4480296217932", "16", "44.07834926582", null, null ]
+, [ 104, "EBB711F6-26B7-49E9-80A8-F7C6BD619440", 104, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "East Region", "99", "99", "REGION EAST", "99", null, "99", null, "99", "East Region", "257", "54.6825962530719", "54.3645082642535", "139", "60.021936074479", "118", "49.4960214426832", "191", "68.6608263024887", "11", "43.1880643894778", "28", "22.8176543451333", null, null, "12", "54.5826700022743", null, null, "68", "97.1400817119511", "90", "74.6287221075151", "67", "52.2686138675654", "30", "48.9596083231334" ]
+, [ 105, "FD824725-6612-4E7D-859A-2377CBE7D621", 105, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Alpine", "38", "5", "EAST", "1", "Rural Area", "5", "High Income", "2", "Supervisorial District 2", "9", "59.1094181006174", "68.9689236541394", "6", "79.4386336555011", null, null, "6", "51.4226945491944", null, null, null, null, null, null, null, null, null, null, null, null, "5", "159.642401021711", null, null, null, null ]
+, [ 106, "B855B3E1-DC14-438C-8B12-ECAB626FB765", 106, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "El Cajon", "34", "5", "EAST", "4", "Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "67", "53.1547755995779", "52.2114730703409", "35", "56.6379700951518", "32", "49.8046723008202", "48", "65.4789512454642", null, null, "7", "20.0590308622518", null, null, "5", "76.7695378473822", null, null, "21", "106.973664102695", "24", "72.4353363715933", "15", "46.8559647643145", "5", "31.9631784184619" ]
+, [ 107, "7EF5586F-FFF6-42DB-A34D-5D4AA670BBEC", 107, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Harbison Crest/El Cajon", "37", "5", "EAST", "99", null, "99", null, "2", "Supervisorial District 2", "96", "68.1256919015584", "68.1108282259524", "53", "76.5652538210395", "43", "59.977125003487", "68", "80.1244285242965", null, null, "13", "34.887153476639", null, null, "6", "85.1426138782461", null, null, "25", "115.318972277319", "37", "103.06693779771", "25", "67.29112833764", "7", "38.0662352493338" ]
+, [ 108, "BDC45020-044B-433C-85B7-9439538A8F98", 108, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Jamul", "30", "5", "EAST", "1", "Rural Area", "6", "Highest Income", "2", "Supervisorial District 2", "8", "44.2502350793739", "36.853429770595", null, null, "6", "78.0538571614414", "7", "72.2170638605179", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 109, "E12EFD9C-C1AC-45AA-9CFD-D431245DDD69", 109, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "La Mesa", "33", "5", "EAST", "4", "Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "48", "79.5755968169761", "76.1029807176675", "26", "90.2589738248976", "22", "69.8102430665736", "37", "99.6820949404602", null, null, null, null, null, null, null, null, null, null, "10", "128.965695125097", "12", "67.4801776978013", "13", "83.3600512984931", "13", "143.313857347591" ]
+, [ 110, "8E13819E-E084-45C7-B79F-9393B9FB3702", 110, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Laguna-Pine Valley", "61", "5", "EAST", "1", "Rural Area", "3", "Moderately Low Income", "2", "Supervisorial District 2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 111, "791C16A5-BCB9-4553-A467-E37BFCCD4099", 111, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Lakeside", "36", "5", "EAST", "2", "Exurban Area", "3", "Moderately Low Income", "2", "Supervisorial District 2", "24", "42.1414900528525", "43.5271461718541", "10", "35.4974974264314", "14", "48.6448922863099", "21", "51.2032770097286", null, null, null, null, null, null, null, null, null, null, "6", "72.2195474241695", "9", "62.8316112817649", "6", "37.1609067261241", null, null ]
+, [ 112, "C8BB0AE9-5928-4771-9B4E-729843D280D2", 112, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Lemon Grove", "32", "5", "EAST", "5", "Very Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "10", "33.2115576220525", "31.4663706777408", "5", "34.1600054656009", "5", "32.3143540360628", "6", "64.998375040624", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 113, "FEA84083-ECBA-4971-9B2D-9297F23BB26E", 113, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Mountain Empire", "62", "5", "EAST", "1", "Rural Area", "2", "Low Income", "2", "Supervisorial District 2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 114, "5F78960E-BCF5-417B-91BB-F0FFB815A6FC", 114, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Santee", "35", "5", "EAST", "3", "Suburban Area", "4", "Moderately High Income", "2", "Supervisorial District 2", "43", "82.771896053898", "82.5291315944035", "26", "103.248351997458", "17", "63.5086670651524", "36", "94.4311832751882", null, null, "5", "57.8302105019662", null, null, null, null, null, null, "20", "269.905533063428", "11", "81.6811465062746", "8", "53.5546927299505", null, null ]
+, [ 115, "1AC067C3-72FD-4279-B169-63C08BA76CE1", 115, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Spring Valley", "31", "5", "EAST", "4", "Urban Area", "4", "Moderately High Income", "2", "Supervisorial District 2", "16", "19.4611688864562", "22.4605173281658", "10", "25.0068768911451", "6", "14.2092549613982", "7", "18.3915293870366", null, null, null, null, null, null, null, null, null, null, null, null, "10", "47.9386385426654", null, null, null, null ]
+, [ 116, "B9A50DB2-DF87-4709-9CB4-0AFB1E7C0F24", 116, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "North Central Region", "99", "99", "REGION N CENTRAL", "99", null, "99", null, "99", "North Central Region", "180", "29.2638674151714", "26.9065253261378", "102", "32.8014355451792", "78", "25.6468429722718", "132", "36.1677526125721", "5", "26.9179004037685", "18", "19.9640646835696", "7", "6.13464673198605", "7", "25.6560621609735", null, null, "59", "57.0489267066331", "57", "29.2973267474313", "40", "27.5713753980617", "23", "30.238092107858" ]
+, [ 117, "134C166E-4239-46FA-9783-DABD2B1CC23D", 117, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Coastal", "11", "2", "N CENTRAL", "3", "Suburban Area", "5", "High Income", "4", "Supervisorial District 4", "31", "40.8469819350928", "37.3961406485143", "23", "58.8777390948188", "8", "21.7220125444622", "21", "34.6878097125867", null, null, "7", "82.5277057297807", null, null, null, null, null, null, "8", "72.4244070251675", "15", "53.6653429215413", "5", "30.3011938670384", null, null ]
+, [ 118, "C27A98BF-2587-4F66-8A49-FBCCA13488D8", 118, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Del Mar-Mira Mesa", "13", "2", "N CENTRAL", "3", "Suburban Area", "6", "Highest Income", "3", "Supervisorial District 3", "33", "20.6135337218672", "20.8331549621746", "22", "27.4612110394068", "11", "13.7541262378714", "26", "34.277728704961", null, null, null, null, null, null, null, null, null, null, "10", "47.4001042802294", "11", "24.0489724529952", "10", "21.6286363144804", null, null ]
+, [ 119, "46018FFB-E285-4A8C-B665-63D05B3E951E", 119, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Elliott-Navajo", "17", "2", "N CENTRAL", "2", "Exurban Area", "5", "High Income", "3", "Supervisorial District 3", "23", "25.4825057058654", "26.7243503791719", "10", "22.8221922997923", "13", "27.9925066213045", "17", "28.3234201362856", null, null, null, null, null, null, null, null, null, null, "9", "83.3410500972312", "8", "31.3700886205004", "5", "22.2469410456062", null, null ]
+, [ 120, "299AE4AF-4874-4EF6-AC6C-A8793FB8966D", 120, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Kearny Mesa", "10", "2", "N CENTRAL", "4", "Urban Area", "3", "Moderately Low Income", "4", "Supervisorial District 4", "64", "41.9834558944116", "41.1788902296641", "30", "39.5137178457121", "34", "44.4339893881178", "50", "59.8379588075492", null, null, null, null, null, null, null, null, null, null, "23", "112.074846506188", "12", "23.3204423110558", "14", "38.4932636788562", "14", "71.1418263123126" ]
+, [ 121, "160893AD-DF3E-4F24-875B-1ECB0A113EA5", 121, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Miramar", "16", "2", "N CENTRAL", "99", null, "99", null, "3", "Supervisorial District 3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 122, "B4B36EA7-D013-48FF-8FFE-B01C5BFA1BA6", 122, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Peninsula", "2", "2", "N CENTRAL", "4", "Urban Area", "3", "Moderately Low Income", "4", "Supervisorial District 4", "18", "28.4575981787137", "26.3907869352805", "11", "31.916436965037", "7", "24.3165317678119", "13", "27.3805261273405", null, null, null, null, null, null, null, null, null, null, null, null, "7", "32.6736370425691", "5", "35.4057498937827", null, null ]
+, [ 123, "4E01AF91-3D43-4B9C-9C77-87D035D10E7F", 123, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "University", "12", "2", "N CENTRAL", "4", "Urban Area", "4", "Moderately High Income", "3", "Supervisorial District 3", "11", "16.155563388556", "12.1128229496432", "6", "17.7904287493329", "5", "14.5509574530004", "5", "14.4998985007105", null, null, null, null, null, null, null, null, null, null, "5", "20.1865234769268", null, null, null, null, null, null ]
+, [ 124, "2C8BE172-52AF-43D4-81B0-C204F431D0AF", 124, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "North Coastal Region", "99", "99", "REGION N COASTAL", "99", null, "99", null, "99", "North Coastal Region", "161", "31.2984786217783", "29.7126693835594", "94", "35.871564534471", "67", "26.5497947344228", "127", "42.4540443327194", null, null, "21", "13.9700110429611", null, null, null, null, null, null, "57", "66.8214109868467", "48", "35.2534206834757", "36", "28.37393696257", "20", "31.3750098046906" ]
+, [ 125, "60CE8612-6B34-4A4C-85C1-BB4DB3C7A3F8", 125, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Carlsbad", "41", "1", "N COASTAL", "3", "Suburban Area", "5", "High Income", "5", "Supervisorial District 5", "30", "25.5477871358376", "27.7669331520425", "21", "36.7924032447396", "9", "14.9130074565037", "25", "29.322073657049", null, null, null, null, null, null, null, null, null, null, "17", "124.006127361587", null, null, "6", "17.998020217776", null, null ]
+, [ 126, "9721C118-3C7D-42F5-87F9-697CC9D7ED06", 126, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Oceanside", "42", "1", "N COASTAL", "3", "Suburban Area", "3", "Moderately Low Income", "5", "Supervisorial District 5", "58", "35.9750159716666", "35.0574881088802", "29", "36.2327894250231", "29", "35.7208843998276", "51", "69.4983851845795", null, null, null, null, null, null, null, null, null, null, "16", "66.0093238169892", "20", "44.7577486852411", "15", "38.2858163812246", "7", "36.5688015881308" ]
+, [ 127, "3C0F17CC-979D-42D1-8035-5E22C00605DB", 127, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Pendleton", "43", "1", "N COASTAL", "99", null, "99", null, "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 128, "71520C9F-8713-43BB-9A4F-5BEA9BF4446F", 128, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "San Dieguito", "40", "1", "N COASTAL", "2", "Exurban Area", "6", "Highest Income", "3", "Supervisorial District 3", "46", "48.1675392670157", "51.5316791674191", "30", "63.8719155187464", "16", "32.9686179967443", "34", "45.9509136122824", null, null, "6", "44.7193858537676", null, null, null, null, null, null, "19", "177.586690344892", "13", "54.3614619051602", "8", "27.033420065556", "6", "40.9109504977499" ]
+, [ 129, "66D5BE83-D85A-49FB-A80F-871C4BC0228A", 129, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Vista", "52", "1", "N COASTAL", "3", "Suburban Area", "2", "Low Income", "5", "Supervisorial District 5", "26", "25.4702194357367", "26.1327892372641", "13", "25.2402679351519", "13", "25.7043994068216", "16", "37.0224680102737", null, null, "10", "20.4553357743367", null, null, null, null, null, null, "5", "30.8908933646361", "10", "34.2360231435516", "7", "28.8612187680383", null, null ]
+, [ 130, "EF0274BB-13CA-4D6F-BE3C-0504F539CC84", 130, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "North Inland Region", "99", "99", "REGION N INLAND", "99", null, "99", null, "99", "North Inland Region", "238", "40.9040833618344", "41.4549074613381", "139", "48.5116689759152", "99", "33.5229581470947", "182", "58.0440433097862", "8", "79.5070562512423", "27", "15.5457419061383", null, null, "11", "49.8911465892598", null, null, "91", "109.724483028878", "84", "57.4964406965283", "47", "30.2612771546673", "14", "17.9826082488793" ]
+, [ 131, "C692B2A2-43B5-4506-B8FD-158BBC8FCF33", 131, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Anza-Borrego Springs", "63", "6", "N INLAND", "1", "Rural Area", "1", "Lowest Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 132, "71A708B9-09D9-4D01-BE81-B763B65BB3AC", 132, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Escondido", "50", "6", "N INLAND", "2", "Exurban Area", "3", "Moderately Low Income", "3", "Supervisorial District 3", "63", "38.0807311500381", "37.2780730768623", "42", "51.2051497750631", "21", "25.1753281783852", "40", "57.3304094824497", "5", "154.655119084442", "14", "18.0654485392794", null, null, null, null, null, null, "21", "80.3796983847508", "24", "53.0867747572386", "13", "33.122706889523", "5", "27.4107779178773" ]
+, [ 133, "EF4EADBC-AE11-4927-9EDE-2A3EA867E6C0", 133, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Fallbrook", "55", "6", "N INLAND", "1", "Rural Area", "4", "Moderately High Income", "5", "Supervisorial District 5", "17", "35.2938733988", "37.7435114030564", "8", "33.2917186849771", "9", "37.2871525044537", "14", "51.9634770989533", null, null, null, null, null, null, null, null, null, null, null, null, "7", "68.7352710133543", "6", "46.5368804777786", null, null ]
+, [ 134, "4C2394B0-14E4-4A9F-BFAE-964274D11661", 134, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "North San Diego", "14", "6", "N INLAND", "3", "Suburban Area", "6", "Highest Income", "3", "Supervisorial District 3", "66", "59.4985891622418", "65.8378511674835", "40", "74.5809482967576", "26", "45.3799699794045", "55", "85.7579443041133", null, null, null, null, null, null, null, null, null, null, "35", "266.686985675099", "23", "75.7625667039989", "6", "19.7329474445833", null, null ]
+, [ 135, "51BF0531-A2A8-4F2F-9CCC-3E0D739481DC", 135, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Palomar-Julian", "60", "6", "N INLAND", "1", "Rural Area", "2", "Low Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 136, "DC974997-DEC7-4D9D-810F-068F5BEB7F54", 136, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Pauma", "54", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 137, "C4A00087-5A1E-4548-87E6-B8CA3FB8C22A", 137, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Poway", "15", "6", "N INLAND", "2", "Exurban Area", "6", "Highest Income", "2", "Supervisorial District 2", "36", "41.1970017737598", "42.4051228927137", "18", "42.1575286319882", "18", "40.2792696025779", "30", "51.8950336452802", null, null, null, null, null, null, null, null, null, null, "14", "117.884809700236", "11", "56.4739706335353", "9", "32.9175962839691", null, null ]
+, [ 138, "38D3B8C2-2ACF-4166-9DFC-ABB12134A40A", 138, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Ramona", "39", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "2", "Supervisorial District 2", "15", "42.0934474533464", "41.3706292009368", "8", "44.7302208554655", "7", "39.4366197183099", "14", "56.1617458279846", null, null, null, null, null, null, null, null, null, null, "8", "140.30164854437", null, null, null, null, null, null ]
+, [ 139, "A254E939-4A21-413A-8E8E-CC44BD81C66B", 139, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "San Marcos", "51", "6", "N INLAND", "3", "Suburban Area", "3", "Moderately Low Income", "5", "Supervisorial District 5", "26", "28.4261739463183", "28.7521579156945", "16", "35.7605828975012", "10", "21.4027352695675", "20", "44.5513677269892", null, null, "5", "14.5437621804008", null, null, null, null, null, null, "5", "37.8787878787879", "11", "44.3048171419365", "7", "33.1863651448348", null, null ]
+, [ 140, "228F93C3-0C85-420C-8A41-F7E1EE1F6D77", 140, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Valley Center", "53", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "5", "Supervisorial District 5", "7", "29.7202054939923", "30.2146968410967", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 141, "ADAACE8C-146E-4A64-B7ED-B66509B38ECC", 141, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "South Region", "99", "99", "REGION SOUTH", "99", null, "99", null, "99", "South Region", "105", "22.1825987020011", "21.7053324560389", "64", "27.1977017941984", "41", "17.224719573163", "35", "36.8910344246053", "7", "38.5144429160935", "53", "18.5321165075702", "5", "8.24049047399301", null, null, null, null, "33", "40.0004848543619", "34", "26.313345509705", "24", "22.0139054502761", "13", "25.7471628607078" ]
+, [ 142, "4B812022-08C2-4573-B960-FCA744C65AC1", 142, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Chula Vista", "21", "4", "SOUTH", "5", "Very Urban Area", "1", "Lowest Income", "1", "Supervisorial District 1", "38", "32.5892129705068", "31.8399655794039", "22", "39.1891410452813", "16", "26.4615893492103", "12", "58.7659157688541", null, null, "24", "28.6327845382964", null, null, null, null, null, null, "16", "83.1298384163766", "12", "39.1517128874388", null, null, "5", "33.802055164954" ]
+, [ 143, "2CD91EF9-402D-4D92-BBC7-AA9484C335EE", 143, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Coronado", "3", "4", "SOUTH", "2", "Exurban Area", "6", "Highest Income", "1", "Supervisorial District 1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 144, "94F40989-D499-4C4F-9F7D-DD7FB9440046", 144, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "National City", "4", "4", "SOUTH", "5", "Very Urban Area", "1", "Lowest Income", "1", "Supervisorial District 1", "11", "18.7227668845316", "18.7502232780195", "6", "19.9474716579674", "5", "17.4380078819796", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "6", "37.8167149880247", null, null, null, null ]
+, [ 145, "AC460979-7DDC-4FA6-8E4A-F7649318285E", 145, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "South Bay", "22", "4", "SOUTH", "3", "Suburban Area", "2", "Low Income", "1", "Supervisorial District 1", "30", "22.1251991267921", "22.6593261645065", "21", "30.8017248965942", "9", "13.3503426587949", "11", "55.9085133418043", null, null, "13", "13.7675403759598", null, null, null, null, null, null, "5", "21.2098074149487", "7", "18.7035750547748", "12", "38.8299249288118", "6", "44.6162998215348" ]
+, [ 146, "A2219BF6-DC94-48FA-95AF-9ED0D645EDE3", 146, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Sweetwater", "20", "4", "SOUTH", "3", "Suburban Area", "6", "Highest Income", "1", "Supervisorial District 1", "23", "16.521801594713", "15.7511737343567", "13", "19.2006616843411", "10", "13.9852315954352", "7", "22.2123500666371", null, null, "12", "18.0856354840168", null, null, null, null, null, null, "10", "46.1020699829422", "8", "20.3112702160611", "5", "14.7824030274361", null, null ]
+, [ 147, "989C0A76-0FFA-46AD-9B63-FAE4016FF710", 147, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2012", "Unknown", "99", "99", "UNKNOWN", "99", null, "99", null, "99", null, "164", null, null, "119", null, "45", null, "92", null, "31", null, "24", null, null, null, "10", null, null, null, "54", null, "81", null, "29", null, null, null ]
+, [ 148, "6D3FADAC-5727-43A4-9B0F-3211EFE0F632", 148, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "San Diego County (Actual Rate)", "0", "0", "COUNTY", "99", null, "99", null, "99", "County Total", "1206", "38.2302016056685", "36.6320879205298", "771", "48.8110304065497", "435", "27.618819654187", "874", "58.8587860543737", "70", "52.5056443567684", "157", "14.8824476223157", "22", "6.10207664763004", "53", "43.8458611161667", "5", "0.827232493692352", "361", "71.3688385067504", "406", "45.9479249305971", "317", "40.9255104069571", "117", "30.2999697000303" ]
+, [ 149, "60B66CF9-E8EA-4C9A-9BE3-627B35BBC043", 149, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Central Region", "99", "99", "REGION CENTRAL", "99", null, "99", null, "99", "Central Region", "217", "44.2784851452824", "43.241268268411", "135", "53.9533842759856", "82", "34.1860387552947", "125", "88.6047236950296", "39", "77.0629149541574", "35", "16.1959806203523", null, null, "10", "60.9644577211486", null, null, "24", "30.8471395704536", "98", "60.1429930344595", "76", "69.0714435022857", "19", "41.1219807808848" ]
+, [ 150, "94288593-34DB-4C41-8D13-0C5F548ABC0C", 150, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Central San Diego", "1", "3", "CENTRAL", "5", "Very Urban Area", "2", "Low Income", "4", "Supervisorial District 4", "122", "72.7056019070322", "66.4729153936447", "81", "88.5574967747578", "41", "53.7113212985039", "80", "98.1282044991782", "23", "222.072028579705", "12", "19.6450789077336", null, null, null, null, null, null, "15", "80.9935205183585", "58", "82.6175519564691", "38", "96.5594348732022", "11", "63.4481167445348" ]
+, [ 151, "3460DA59-639B-4BA1-A1C3-F95B453069AB", 151, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Mid-City", "6", "3", "CENTRAL", "5", "Very Urban Area", "1", "Lowest Income", "4", "Supervisorial District 4", "59", "35.7801280807297", "36.860158485686", "34", "41.4013126651486", "25", "30.2030855472195", "35", "77.4302022034423", "8", "45.397798206787", "11", "15.2150158374483", null, null, null, null, null, null, null, null, "25", "48.9821509042105", "27", "78.3198932528862", null, null ]
+, [ 152, "43E03B22-A0DE-4D3B-9453-76A2962A3C29", 152, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Southeastern San Diego", "5", "3", "CENTRAL", "5", "Very Urban Area", "2", "Low Income", "4", "Supervisorial District 4", "36", "22.8739897321202", "24.0770195437297", "20", "26.1004606731309", "16", "19.8125239917283", "10", "69.6961248954558", "8", "35.3528657916832", "12", "14.5064190904475", null, null, null, null, null, null, "6", "21.5177162530483", "15", "35.9686353499748", "11", "30.3842223020192", null, null ]
+, [ 153, "1C5D6D89-4E00-4C76-AB95-D761D5CE3809", 153, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "East Region", "99", "99", "REGION EAST", "99", null, "99", null, "99", "East Region", "240", "50.8785021368971", "49.0248979128088", "154", "66.2320012386244", "86", "35.9537784912791", "182", "65.6099381031518", "11", "44.9916151989856", "19", "15.0917019468296", "5", "22.7697071815656", "20", "90.8677873693776", null, null, "83", "117.627051387432", "65", "54.0104863436563", "73", "57.3128891191873", "18", "28.1685732617643" ]
+, [ 154, "B754421B-B6A5-421D-8E12-8CDB0FD8C739", 154, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Alpine", "38", "5", "EAST", "1", "Rural Area", "5", "High Income", "2", "Supervisorial District 2", "8", "51.8302559118886", "54.2349425772808", "5", "65.2230628750326", null, null, "7", "59.7371565113501", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 155, "CBC24738-8B87-498C-96ED-8AFF1AAC9CF4", 155, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "El Cajon", "34", "5", "EAST", "4", "Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "57", "45.1817972843362", "42.9687395886748", "38", "61.4697746647471", "19", "29.5315365724766", "45", "61.6734050572192", null, null, null, null, null, null, null, null, null, null, "17", "86.3075595268315", "14", "42.2973503731231", "20", "62.9485081203576", "6", "37.1494025137762" ]
+, [ 156, "783D5D6B-28E6-4100-8507-43F4321B2745", 156, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Harbison Crest/El Cajon", "37", "5", "EAST", "99", null, "99", null, "2", "Supervisorial District 2", "78", "55.2568380337067", "52.3712150126484", "50", "72.1584021243434", "28", "38.9608582520489", "61", "72.1586069840068", "5", "76.2543846271161", null, null, null, null, "7", "99.4742077589882", null, null, "21", "96.4054537942432", "20", "55.6653399760639", "27", "73.3934978797434", "9", "47.1648674143172" ]
+, [ 157, "1E02BD11-0A95-4986-80F4-B12450C85E31", 157, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Jamul", "30", "5", "EAST", "1", "Rural Area", "6", "Highest Income", "2", "Supervisorial District 2", "9", "48.8838194557601", "54.1081528977205", "6", "56.8289448759235", null, null, "6", "61.4502253174928", null, null, null, null, null, null, null, null, null, null, null, null, "6", "137.804317868627", null, null, null, null ]
+, [ 158, "01350154-AA7A-4310-B8FC-84E1649D8EEF", 158, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "La Mesa", "33", "5", "EAST", "4", "Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "52", "86.1497680583168", "84.4057099997158", "36", "124.446902654867", "16", "50.9035377958768", "37", "100.070319684102", null, null, "6", "45.9453250631748", null, null, "5", "182.949140139041", null, null, "21", "287.35632183908", "10", "55.7693380179577", "16", "103.512971469237", "5", "53.5905680600214" ]
+, [ 159, "4A0CC134-043E-4D4C-921F-88D581A49880", 159, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Laguna-Pine Valley", "61", "5", "EAST", "1", "Rural Area", "3", "Moderately Low Income", "2", "Supervisorial District 2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 160, "8D02A6EF-3F2D-4A65-AA4C-A4C1817831E1", 160, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Lakeside", "36", "5", "EAST", "2", "Exurban Area", "3", "Moderately Low Income", "2", "Supervisorial District 2", "18", "31.4564328405159", "29.2959269080823", "7", "24.7026855348131", "11", "38.0820495066644", "16", "38.9977576289363", null, null, null, null, null, null, null, null, null, null, "6", "70.2576112412178", null, null, "8", "49.7729110931376", null, null ]
+, [ 161, "3064075D-68E9-442C-A6DC-02F08C07246C", 161, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Lemon Grove", "32", "5", "EAST", "5", "Very Urban Area", "2", "Low Income", "2", "Supervisorial District 2", "10", "33.2071461778575", "32.354003422166", "7", "47.7848317291283", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "5", "104.799832320268", null, null, null, null, null, null ]
+, [ 162, "EC1CBE40-CF20-4836-BB89-78F7C48700B7", 162, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Mountain Empire", "62", "5", "EAST", "1", "Rural Area", "2", "Low Income", "2", "Supervisorial District 2", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 163, "0BD06016-9DD0-4F2E-B032-303257839B65", 163, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Santee", "35", "5", "EAST", "3", "Suburban Area", "4", "Moderately High Income", "2", "Supervisorial District 2", "48", "91.7448727995566", "93.8011400589899", "35", "138.105196701259", "13", "48.1909845788849", "40", "104.695597550123", null, null, null, null, null, null, null, null, null, null, "22", "289.778714436249", "16", "120.345994734863", "8", "53.5833891493637", null, null ]
+, [ 164, "CD433D3E-5509-4833-BD00-0B94DBA5543B", 164, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Spring Valley", "31", "5", "EAST", "4", "Urban Area", "4", "Moderately High Income", "2", "Supervisorial District 2", "13", "15.7627344706753", "15.367886503822", "5", "12.4626121635095", "8", "18.8888626543574", "8", "21.1662609799979", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "6", "27.7713492247165", null, null ]
+, [ 165, "65D87F65-F794-4293-9A7A-2D7C0B25B1C8", 165, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "North Central Region", "99", "99", "REGION N CENTRAL", "99", null, "99", null, "99", "North Central Region", "219", "35.4041243379914", "32.0898917685839", "143", "45.7822684953962", "76", "24.818433564972", "174", "47.7539191147411", "6", "33.0906684315023", "20", "21.6633088537943", null, null, "10", "36.2187613183629", null, null, "74", "71.8328042944368", "73", "37.416325819315", "55", "37.8155016054399", "16", "20.476330641549" ]
+, [ 166, "193AC115-75EC-4A71-869F-990F184CCA71", 166, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Coastal", "11", "2", "N CENTRAL", "3", "Suburban Area", "5", "High Income", "4", "Supervisorial District 4", "31", "40.7948414265035", "37.8310008493786", "20", "51.0751315184637", "11", "29.8653344917463", "28", "46.3990985318", null, null, null, null, null, null, null, null, null, null, "7", "62.65664160401", "13", "46.7071461933676", "10", "60.8272506082725", null, null ]
+, [ 167, "7939E58C-E3CD-4983-92C3-4397E95790EC", 167, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Del Mar-Mira Mesa", "13", "2", "N CENTRAL", "3", "Suburban Area", "6", "Highest Income", "3", "Supervisorial District 3", "36", "22.3630264629146", "22.9505267154783", "24", "29.8500037312505", "12", "14.8924023927127", "30", "39.565830948393", null, null, null, null, null, null, null, null, null, null, "17", "76.5834759888278", "12", "26.9396551724138", null, null, null, null ]
+, [ 168, "866FB620-9C29-434E-A531-524298CB3DE0", 168, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Elliott-Navajo", "17", "2", "N CENTRAL", "2", "Exurban Area", "5", "High Income", "3", "Supervisorial District 3", "23", "25.4045396807864", "25.4905610092711", "19", "43.164160116316", null, null, "19", "31.7667318720637", null, null, null, null, null, null, null, null, null, null, "6", "55.4733727810651", "10", "39.1573341686898", null, null, null, null ]
+, [ 169, "3F2B23BB-F3B4-434C-A52F-A0A449128108", 169, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Kearny Mesa", "10", "2", "N CENTRAL", "4", "Urban Area", "3", "Moderately Low Income", "4", "Supervisorial District 4", "87", "56.5813177593798", "55.2837148694658", "55", "71.8907260963336", "32", "41.4207310759035", "60", "71.6512019489127", null, null, "14", "39.2497687067201", null, null, "5", "70.1852891633913", null, null, "28", "142.218610321008", "25", "48.0630587330578", "27", "73.7362427287872", "6", "29.5551943254027" ]
+, [ 170, "1EA13FDC-41BB-4041-85BA-1747E52079C1", 170, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Miramar", "16", "2", "N CENTRAL", "99", null, "99", null, "3", "Supervisorial District 3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 171, "031F5180-007B-4F0F-926C-465647B7397A", 171, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Peninsula", "2", "2", "N CENTRAL", "4", "Urban Area", "3", "Moderately Low Income", "4", "Supervisorial District 4", "23", "36.6160410099659", "32.7524278587274", "14", "41.137752703338", "9", "31.2695434646654", "18", "38.3909909141322", null, null, null, null, null, null, null, null, null, null, "8", "69.4022729244383", "9", "41.9150521609538", "5", "35.8731525326446", null, null ]
+, [ 172, "BD23543A-BAE7-4F1C-8843-641C8799F6CA", 172, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "University", "12", "2", "N CENTRAL", "4", "Urban Area", "4", "Moderately High Income", "3", "Supervisorial District 3", "19", "27.3810724733755", "24.1925818247429", "11", "31.9990691179893", "8", "22.8473511352278", "19", "54.6872751345595", null, null, null, null, null, null, null, null, null, null, "8", "32.5772692104084", null, null, "6", "64.26735218509", null, null ]
+, [ 173, "6EBD0AC6-662A-485B-850F-67360C17D04E", 173, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "North Coastal Region", "99", "99", "REGION N COASTAL", "99", null, "99", null, "99", "North Coastal Region", "171", "33.3460087167637", "32.2656030359672", "109", "41.9655266673597", "62", "24.4993440498206", "140", "47.2385682664795", null, null, "19", "12.4636749473574", null, null, null, null, null, null, "55", "65.3284238033021", "55", "41.2891214425668", "31", "24.5012803894913", "30", "45.692701352504" ]
+, [ 174, "E922B5BD-7CC5-4AF8-AD57-4F47CE1934B6", 174, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Carlsbad", "41", "1", "N COASTAL", "3", "Suburban Area", "5", "High Income", "5", "Supervisorial District 5", "48", "40.5978026439319", "41.8367862413099", "33", "57.4242608801573", "15", "24.6848566632656", "41", "48.0093676814988", null, null, null, null, null, null, null, null, null, null, "17", "116.798351082102", "14", "48.8128029008751", "6", "17.9157957599283", "11", "55.4239935506626" ]
+, [ 175, "D48FEBEB-157E-4874-80E1-90E8172E8951", 175, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Oceanside", "42", "1", "N COASTAL", "3", "Suburban Area", "3", "Moderately Low Income", "5", "Supervisorial District 5", "57", "35.2875626818548", "35.8347124609443", "37", "46.2130295763389", "20", "24.5501190680775", "46", "63.0214684002137", null, null, "7", "11.1144630920436", null, null, null, null, null, null, "17", "72.0735998643321", "17", "38.1413923851832", "12", "30.9565576307915", "11", "56.4971751412429" ]
+, [ 176, "28091F79-974C-4C6F-A610-A204317EDAC8", 176, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Pendleton", "43", "1", "N COASTAL", "99", null, "99", null, "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 177, "6314E598-8022-4611-B677-B06270B88F1E", 177, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "San Dieguito", "40", "1", "N COASTAL", "2", "Exurban Area", "6", "Highest Income", "3", "Supervisorial District 3", "36", "37.4169810732437", "38.8626073837368", "18", "37.9955249715034", "18", "36.855791478122", "33", "44.4570181465465", null, null, null, null, null, null, null, null, null, null, "12", "103.71650821089", "13", "55.9139784946237", "6", "20.3141928494041", "5", "32.5118668313935" ]
+, [ 178, "61B3E2E0-B097-4655-A0E1-89F910795156", 178, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Vista", "52", "1", "N COASTAL", "3", "Suburban Area", "2", "Low Income", "5", "Supervisorial District 5", "30", "29.1962278473621", "28.0722130173137", "21", "40.595399188092", "9", "17.6391039335202", "20", "46.6613783771173", null, null, "7", "14.0112089671737", null, null, null, null, null, null, "9", "56.2851782363977", "11", "37.3882600863329", "7", "28.7556997904942", null, null ]
+, [ 179, "E471B208-9CDD-4C96-B714-1C6591BE38A1", 179, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "North Inland Region", "99", "99", "REGION N INLAND", "99", null, "99", null, "99", "North Inland Region", "253", "43.284192373428", "43.4395150936922", "164", "56.9470149694257", "89", "30.0146363507598", "199", "63.8315616600055", "6", "62.3506183102982", "26", "14.6434324205594", "6", "9.45313607789384", "7", "31.6699090621183", null, null, "100", "116.150763691271", "82", "57.0637234775468", "49", "31.5978178160104", "22", "27.2712622875631" ]
+, [ 180, "50A4860F-76BC-4360-880C-B0A4C097E921", 180, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Anza-Borrego Springs", "63", "6", "N INLAND", "1", "Rural Area", "1", "Lowest Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 181, "75D5F378-96B3-475C-B190-9AB8EA1D5A0E", 181, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Escondido", "50", "6", "N INLAND", "2", "Exurban Area", "3", "Moderately Low Income", "3", "Supervisorial District 3", "67", "40.371417036738", "39.7687277451207", "43", "52.199036138728", "24", "28.7143164796248", "49", "70.9035133414366", "5", "162.02203499676", "9", "11.4271203656679", null, null, null, null, null, null, "21", "79.21837866385", "24", "53.4164255508569", "19", "48.6169750006397", null, null ]
+, [ 182, "E37EFFC7-BCBB-4E5A-A47B-0E5E776FCCAC", 182, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Fallbrook", "55", "6", "N INLAND", "1", "Rural Area", "4", "Moderately High Income", "5", "Supervisorial District 5", "16", "33.0394201581762", "34.750869718088", "10", "41.3890153553247", "6", "24.7259540097255", "12", "44.8849822330279", null, null, null, null, null, null, null, null, null, null, "7", "95.5500955500955", "6", "58.6395621579359", null, null, null, null ]
+, [ 183, "CD569421-862E-4FB2-8E64-E8D8EA187C52", 183, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "North San Diego", "14", "6", "N INLAND", "3", "Suburban Area", "6", "Highest Income", "3", "Supervisorial District 3", "50", "44.7988531493594", "46.9138124850387", "34", "62.9513053138308", "16", "27.7777777777778", "38", "59.3184620908197", null, null, null, null, null, null, null, null, null, null, "26", "183.914550470397", "14", "47.58182374333", null, null, "6", "41.1607326610414" ]
+, [ 184, "878E33A1-7082-4B39-9881-9034E28405F5", 184, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Palomar-Julian", "60", "6", "N INLAND", "1", "Rural Area", "2", "Low Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 185, "817034A1-75A3-4F9A-B223-96BA4F66AB4B", 185, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Pauma", "54", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "5", "Supervisorial District 5", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 186, "A5583A14-FF1B-4FA2-953A-E6226F20DDF8", 186, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Poway", "15", "6", "N INLAND", "2", "Exurban Area", "6", "Highest Income", "2", "Supervisorial District 2", "39", "44.4535631240596", "46.3204091722503", "22", "51.3023808968589", "17", "37.9049700104796", "32", "55.4756167328329", null, null, null, null, null, null, null, null, null, null, "16", "124.600887781325", "12", "63.8739553946878", "9", "32.9537548972941", null, null ]
+, [ 187, "D93690ED-AB11-4663-BD74-36FEFA29212F", 187, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Ramona", "39", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "2", "Supervisorial District 2", "27", "75.3537439647233", "71.6426036532967", "17", "94.7022450002785", "10", "55.9284116331096", "26", "104.358994942603", null, null, null, null, null, null, null, null, null, null, "14", "237.368599525263", "7", "90.591432638799", "5", "45.3473607836024", null, null ]
+, [ 188, "70D1BB08-2265-4129-AAF6-C479823D22BE", 188, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "San Marcos", "51", "6", "N INLAND", "3", "Suburban Area", "3", "Moderately Low Income", "5", "Supervisorial District 5", "35", "38.0836316551146", "38.661059934014", "23", "51.0963499433497", "12", "25.5918106206014", "28", "62.7971651565444", null, null, "6", "17.0721297481861", null, null, null, null, null, null, "9", "66.3618935260286", "11", "44.9346405228758", "9", "42.1407501053519", "6", "48.1540930979133" ]
+, [ 189, "D5D3732A-2A89-4F8D-8F19-C9591A7A05DB", 189, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Valley Center", "53", "6", "N INLAND", "1", "Rural Area", "5", "High Income", "5", "Supervisorial District 5", "12", "50.7077963236848", "51.8034574306088", "11", "92.9211015374219", null, null, "9", "61.9834710743802", null, null, null, null, null, null, null, null, null, null, "6", "171.232876712329", null, null, null, null, null, null ]
+, [ 190, "60D080C2-4888-4DDA-AE5B-156E7B5D467F", 190, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "South Region", "99", "99", "REGION SOUTH", "99", null, "99", null, "99", "South Region", "106", "22.2270683754949", "22.0857753198836", "66", "27.8766836883387", "40", "16.65701947622", "54", "57.4816644135274", "5", "28.7240765209399", "38", "13.0757187344081", null, null, null, null, null, null, "25", "29.7067351109844", "33", "25.7191623346764", "33", "29.9632269487447", "12", "23.2702451132485" ]
+, [ 191, "2E684CE4-F365-4661-AE5E-831D6298F4E8", 191, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Chula Vista", "21", "4", "SOUTH", "5", "Very Urban Area", "1", "Lowest Income", "1", "Supervisorial District 1", "47", "40.3845988606388", "39.3379916263187", "30", "53.5284146667856", "17", "28.1755502519226", "25", "125.817815802718", null, null, "18", "21.3189312109153", null, null, null, null, null, null, "13", "67.3330916247993", "11", "36.2020733914761", "18", "66.3643402278509", null, null ]
+, [ 192, "9191BDFB-DADE-4F68-98A5-ADBA25753A1E", 192, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Coronado", "3", "4", "SOUTH", "2", "Exurban Area", "6", "Highest Income", "1", "Supervisorial District 1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 193, "74AF71AB-9CA0-4EDE-B8CB-09EBA413D408", 193, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "National City", "4", "4", "SOUTH", "5", "Very Urban Area", "1", "Lowest Income", "1", "Supervisorial District 1", "6", "10.231051240515", "11.0848188713806", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 194, "DF2D54A3-56B7-4175-8756-D9FC1D8F65E2", 194, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "South Bay", "22", "4", "SOUTH", "3", "Suburban Area", "2", "Low Income", "1", "Supervisorial District 1", "32", "23.404302003262", "25.1986988879971", "21", "30.5859392068046", "11", "16.1603102779573", "11", "56.5349231638999", null, null, "16", "16.6626745675515", null, null, null, null, null, null, null, null, "13", "34.7909864582776", "9", "28.8970942366351", "6", "43.3682688832671" ]
+, [ 195, "129A3A42-9C63-45D4-A314-87B9508DA2B8", 195, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Sweetwater", "20", "4", "SOUTH", "3", "Suburban Area", "6", "Highest Income", "1", "Supervisorial District 1", "18", "12.6812359978019", "12.7940735700937", "11", "15.9698025551684", "7", "9.58090388984698", "12", "37.8179067788598", null, null, null, null, null, null, null, null, null, null, "7", "30.3227203811999", "7", "17.9754506702275", null, null, null, null ]
+, [ 196, "D9F4FC66-D4C1-4604-BC1F-8AFA637437A1", 196, 1441281585, "894276", 1441281585, "894276", null, "Acute Substance", "Hospitalization", "2013", "Unknown", "99", "99", "UNKNOWN", "99", null, "99", null, "99", null, "187", null, null, "120", null, "67", null, "114", null, "24", null, "33", null, null, null, "11", null, null, null, "58", null, "89", null, "40", null, null, null ]
+ ]
+}
